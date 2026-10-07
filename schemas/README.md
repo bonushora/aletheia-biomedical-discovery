@@ -9,4 +9,6 @@ This directory reserves explicitly versioned schemas for:
 - human decision records;
 - Research Control Plane descriptors.
 
-Definitive schemas and their initial versions are `NOT_ESTABLISHED`. This foundation creates no production API or schema.
+Only the Research Control Plane descriptor schema is established, at [`0.1.0`](research-control-plane-descriptor/0.1.0/schema.json). Evidence-package, provenance, scientific-state, dataset-identity, and human-decision schemas remain `NOT_ESTABLISHED`.
+
+The descriptor schema is a normative structural representation. Its standard-library validator enforces additional duplicate-key, dependency-identity, and repository-URL semantics without claiming generic JSON Schema-engine equivalence.

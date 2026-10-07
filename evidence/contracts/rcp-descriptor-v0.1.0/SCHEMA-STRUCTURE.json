@@ -1,0 +1,10 @@
+{
+  "contract": "aletheia.research-control-plane-descriptor",
+  "contract_version": "0.1.0",
+  "errors": [],
+  "json_schema_meta_validation": "NOT_EXECUTED_EXTERNAL_ENGINE",
+  "mode": "schema-structural-self-check",
+  "schema": "aletheia.rcp-descriptor-validation.v1",
+  "schema_version": "0.1.0",
+  "state": "PASS"
+}

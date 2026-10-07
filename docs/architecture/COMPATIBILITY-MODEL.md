@@ -1,10 +1,11 @@
 # Compatibility model
 
-No executable contract, schema, or compatibility range is established by this documentation-only foundation.
+The first executable federation boundary is the experimental RCP Descriptor contract and schema v0.1.0. No consumer compatibility is established.
 
 ```yaml
-contract_version: NOT_ESTABLISHED
-schema_version: NOT_ESTABLISHED
+contract: aletheia.research-control-plane-descriptor
+contract_version: 0.1.0
+schema_version: 0.1.0
 contract_versioning: semver
 control_plane_dependency:
   explicit: true
@@ -14,7 +15,8 @@ breaking_change:
   requires_migration_mission: true
 compatibility_matrix:
   required: true
-  current: NOT_ESTABLISHED
+  qualified_consumers: 0
+  consumer_compatibility: NOT_ESTABLISHED
 ```
 
-A compatibility matrix must bind a Control Plane revision to an explicit contract and schema range. A breaking Core change cannot silently migrate or mutate a federated Control Plane; migration requires its own authorized mission and validation to GREEN.
+A compatibility matrix must bind a Control Plane revision to exact contract and schema identities. A breaking Core change cannot silently migrate or mutate a federated Control Plane; migration requires its own authorized mission and validation to GREEN.

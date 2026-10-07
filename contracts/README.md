@@ -4,4 +4,4 @@ Contracts define the explicitly versioned integration boundary between Aletheia 
 
 Contract authority is architectural and technical. It does not decide scientific truth, change scientific state, or replace a human scientific decision. Scientific policy remains governed by the applicable ADRs and human authority boundary.
 
-The first executable contract version is `NOT_ESTABLISHED`. See [versioning](VERSIONING.md).
+The first executable family is [`aletheia.research-control-plane-descriptor` v0.1.0](research-control-plane-descriptor/0.1.0/CONTRACT.md), with registry status `EXPERIMENTAL`. It has zero qualified consumers. See [versioning](VERSIONING.md), [the registry](REGISTRY.json), and [the compatibility matrix](COMPATIBILITY-MATRIX.json).

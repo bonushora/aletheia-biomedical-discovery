@@ -1,0 +1,9 @@
+{
+  "schema": "aletheia.compatibility-matrix.v1",
+  "contract": "aletheia.research-control-plane-descriptor",
+  "contract_version": "0.1.0",
+  "schema_version": "0.1.0",
+  "qualified_consumers": [],
+  "consumer_compatibility": "NOT_ESTABLISHED",
+  "notes": "No Kidney or other Research Control Plane integration is qualified by this contract mission."
+}

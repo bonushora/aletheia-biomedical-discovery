@@ -15,7 +15,8 @@ from urllib.parse import unquote
 SCRIPT_ROOT = Path(__file__).resolve().parents[1]
 FOUNDATION_MANIFEST_REL = PurePosixPath("evidence/foundation-v01/MANIFEST.json")
 HARDENING_MANIFEST_REL = PurePosixPath("evidence/hardening/foundation-v01/MANIFEST.json")
-MANIFEST_EXCLUSIONS = {FOUNDATION_MANIFEST_REL, HARDENING_MANIFEST_REL}
+CONTRACT_MANIFEST_REL = PurePosixPath("evidence/contracts/rcp-descriptor-v0.1.0/MANIFEST.json")
+MANIFEST_EXCLUSIONS = {FOUNDATION_MANIFEST_REL, HARDENING_MANIFEST_REL, CONTRACT_MANIFEST_REL}
 EXPECTED_CORE = {f"{number:04d}" for number in range(18)}
 EXPECTED_KIDNEY = {f"{number:04d}" for number in range(1, 9)}
 REQUIRED_FILES = {

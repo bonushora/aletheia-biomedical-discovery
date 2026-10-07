@@ -4,6 +4,7 @@
     ".git/",
     "**/__pycache__/",
     "*.pyc",
+    "evidence/contracts/rcp-descriptor-v0.1.0/MANIFEST.json",
     "evidence/foundation-v01/MANIFEST.json",
     "evidence/hardening/foundation-v01/MANIFEST.json"
   ],
@@ -35,8 +36,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "eca81b599a0e23cd4d896773a44e2391884c559af040d5473912927bc63634be",
-      "size": 1863
+      "sha256": "2d6b305232ef6a9a98643311e4b78117db6de29567bbb8e2bdac543ba70d831c",
+      "size": 2297
     },
     {
       "path": "SOURCES.md",
@@ -44,19 +45,34 @@
       "size": 1127
     },
     {
+      "path": "contracts/COMPATIBILITY-MATRIX.json",
+      "sha256": "00033fabd489e046175703f90ccd7136e21a411be6b83d7304d6e4585d6b9c9f",
+      "size": 354
+    },
+    {
       "path": "contracts/README.md",
-      "sha256": "e3298532b733c14b01e4dce061c0b1284bbca2522d4164b80f97d6d0bcee422e",
-      "size": 604
+      "sha256": "a1601e566c6b87af433bb16479954cb8c021d8295b093c753eccf44e956543f0",
+      "size": 843
+    },
+    {
+      "path": "contracts/REGISTRY.json",
+      "sha256": "38ef4ef400dd2ee5938722751fd4d0efce5886934c6dcc4beef8059d47d8e023",
+      "size": 628
     },
     {
       "path": "contracts/VERSIONING.md",
-      "sha256": "208f79c9f5b52d466d69a6440610e981e7e3bf23d46bc73d98c323c82cb641e4",
-      "size": 519
+      "sha256": "c4e5406f8403e43b738c61b99dfce7366c9bdf90fc1a99a1d809dff6fa56c660",
+      "size": 633
+    },
+    {
+      "path": "contracts/research-control-plane-descriptor/0.1.0/CONTRACT.md",
+      "sha256": "9023533c9390e7da06ecc9984f2a04983e7aa64a9ef62388d479aa4992019157",
+      "size": 1808
     },
     {
       "path": "control-planes/README.md",
-      "sha256": "a9b7711b7917f2784474ba8e1bc2a1fde73d2793d05e54aaa1c9885003bdebff",
-      "size": 522
+      "sha256": "1f6d71ddc15b67aad7557c3346a407c84f6cd42b62877ce41a407e60b516abb9",
+      "size": 635
     },
     {
       "path": "docs/adr/0000-adr-governance-and-lifecycle.md",
@@ -155,8 +171,8 @@
     },
     {
       "path": "docs/architecture/COMPATIBILITY-MODEL.md",
-      "sha256": "76869357b3872b1ccb289060951ac64b5b49f89804331f6e9254e3c59f98562a",
-      "size": 724
+      "sha256": "048ad6af8f0f271c2903018d4896c054cb402f37222b84316a21a22d2a510103",
+      "size": 833
     },
     {
       "path": "docs/architecture/FEDERATION-MODEL.md",
@@ -187,6 +203,51 @@
       "path": "evidence-packages/README.md",
       "sha256": "bf992f1c6605039bdc2174ff1e6b3bdfac55ce14c0373ae6d8ce32bf3441c2b1",
       "size": 476
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/BASELINE.json",
+      "sha256": "c2e0b28dcbb047060299456fb249a5637dbba2c373f8d00f77dddbcebd5cbf31",
+      "size": 576
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/CONTRACT-IDENTITY.json",
+      "sha256": "60abddccdec07f9701a2dc1c23de0689344e7458f7e4fe4825e67e4abc7c771d",
+      "size": 1042
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/FOUNDATION-REGRESSION.json",
+      "sha256": "8b7351a250e496d6ad19a36b22596fb6054ace43e4a26d532cadf872dad27c34",
+      "size": 478
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/HARDENING-RESULTS.json",
+      "sha256": "a5f228be574c48f32cd36cc5f8ba3911e67465e6359ef154de8621c268d3bb56",
+      "size": 14963
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/KIDNEY-PRESERVATION.json",
+      "sha256": "5613b680194b074a99f4fe1f725fcb2780be998ee03043dbc3efd123e10c6283",
+      "size": 1015
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/REPORT.md",
+      "sha256": "2807031ca39fc37e01066742f24a1400137807a082da6569995c9d11ee4e063e",
+      "size": 997
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/SCHEMA-STRUCTURE.json",
+      "sha256": "e1b296e45904970b5e256a8ec8c789215719d5acb23924863b71d5dfdda9c5a3",
+      "size": 318
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/UNIT-TESTS.json",
+      "sha256": "f576e16b4657a7d6bdb3fa20df49d802f1c18b00343be53c338571897b1039d0",
+      "size": 222
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/sdp_snapshot.json",
+      "sha256": "952d5a424ab0e2480d928b74c328ff05e7c6ea937c64e1e7fd7c0e98e1b32f4f",
+      "size": 806
     },
     {
       "path": "evidence/foundation-v01/BASELINE.json",
@@ -305,8 +366,18 @@
     },
     {
       "path": "schemas/README.md",
-      "sha256": "f61767d120019fa426ff2a3ce1bfff56cc2c589c62194e54d7b948efc848e9fe",
-      "size": 332
+      "sha256": "40ef1b8f0f1e457ccfe785ec3a1e9e2a3e89907a8b8edba704a71b157c140974",
+      "size": 700
+    },
+    {
+      "path": "schemas/research-control-plane-descriptor/0.1.0/examples/valid-minimal.json",
+      "sha256": "5aaf3634cb67bd58a7a6b6dbfa1d44668c4819eb597a8f585033346a00413d1c",
+      "size": 735
+    },
+    {
+      "path": "schemas/research-control-plane-descriptor/0.1.0/schema.json",
+      "sha256": "b2fb81b391f7b099886104bc2ea6090d19c9364fc68d78c28f666907bc530f0a",
+      "size": 2891
     },
     {
       "path": "scripts/validate_accepted_adr_history.py",
@@ -315,13 +386,28 @@
     },
     {
       "path": "scripts/validate_foundation.py",
-      "sha256": "470d6b4c76d5f80e4bc14288797af2b480ac6891e2ed282e55585644884d5f94",
-      "size": 15491
+      "sha256": "f69f153a56748a3a2a536cd535f4bb15f27b58afe08cdd988a0cc469234f3420",
+      "size": 15610
+    },
+    {
+      "path": "scripts/validate_rcp_descriptor.py",
+      "sha256": "8f3d4913fda5dc38a0cdc80a38ea852e2f116a88b9086784aacadec7fc58a658",
+      "size": 12304
     },
     {
       "path": "scripts/verify_evidence_zip.py",
       "sha256": "5717ccdfe274884f658d81b31717ac16472cab34f9fe96635c6a0f75f46791db",
       "size": 3854
+    },
+    {
+      "path": "tests/contracts/run_rcp_descriptor_hardening.py",
+      "sha256": "fcb60459ee7d0b4b0b313a2cc2f2c5baea5cd7b02d2aaac2b4d29f14d60412a7",
+      "size": 7109
+    },
+    {
+      "path": "tests/contracts/test_rcp_descriptor.py",
+      "sha256": "e9ca228a7863c2dae8c416ced7bafb63883b31cef524fca97811b951c671e660",
+      "size": 10599
     },
     {
       "path": "tests/foundation-hardening/run_foundation_hardening.py",

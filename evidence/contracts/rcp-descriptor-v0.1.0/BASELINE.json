@@ -1,0 +1,13 @@
+{
+  "schema": "aletheia.rcp-descriptor-baseline.v1",
+  "captured_utc": "2026-10-07T20:42:33Z",
+  "runner_sha256": "aad89165924c6992facced1fe92922d12f865bf96f195477562bdbcf7c886c66",
+  "mission_baseline_sha": "c08d5740149ea00f9e8f0915ef4aacc74c95ce97",
+  "adr_acceptance_sha": "dc0249754f28851317222da1d603f58fb32651f7",
+  "branch": "main",
+  "remote": "NOT_ESTABLISHED",
+  "adr_0016_sha256": "1aab1f4fc8166d4d83b051566dbbceca704ad372000d3297cf854b17932de228",
+  "accepted_adrs": ["ADR-0016", "ADR-0017"],
+  "foundation_validator": "PASS",
+  "foundation_hardening_cases": 26
+}

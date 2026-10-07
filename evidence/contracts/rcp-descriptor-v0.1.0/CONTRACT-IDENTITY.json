@@ -1,0 +1,23 @@
+{
+  "schema": "aletheia.contract-identity.v1",
+  "name": "aletheia.research-control-plane-descriptor",
+  "contract_version": "0.1.0",
+  "schema_version": "0.1.0",
+  "schema_id": "urn:aletheia:schema:research-control-plane-descriptor:0.1.0",
+  "status": "EXPERIMENTAL",
+  "qualified": true,
+  "qualified_consumers": 0,
+  "consumer_compatibility": "NOT_ESTABLISHED",
+  "paths": {
+    "contract": "contracts/research-control-plane-descriptor/0.1.0/CONTRACT.md",
+    "schema": "schemas/research-control-plane-descriptor/0.1.0/schema.json",
+    "example": "schemas/research-control-plane-descriptor/0.1.0/examples/valid-minimal.json",
+    "validator": "scripts/validate_rcp_descriptor.py"
+  },
+  "sha256": {
+    "contract": "9023533c9390e7da06ecc9984f2a04983e7aa64a9ef62388d479aa4992019157",
+    "schema": "b2fb81b391f7b099886104bc2ea6090d19c9364fc68d78c28f666907bc530f0a",
+    "example": "5aaf3634cb67bd58a7a6b6dbfa1d44668c4819eb597a8f585033346a00413d1c",
+    "validator": "8f3d4913fda5dc38a0cdc80a38ea852e2f116a88b9086784aacadec7fc58a658"
+  }
+}

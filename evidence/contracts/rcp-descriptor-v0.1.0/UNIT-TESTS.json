@@ -1,0 +1,9 @@
+{
+  "schema": "aletheia.rcp-descriptor-unit-tests.v1",
+  "command": "python3 -m unittest discover -s tests/contracts -p test_*.py -v",
+  "tests_run": 60,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "state": "PASS"
+}

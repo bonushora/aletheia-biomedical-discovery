@@ -1,12 +1,12 @@
 # Aletheia Biomedical Discovery
 
-Local architecture foundation for an evidence-governed biomedical discovery platform.
+Local architecture and first executable federation contract for an evidence-governed biomedical discovery platform.
 
 This repository is intentionally documentation-first. It does **not** modify biomedical data or the existing kidney research repository. ADR-0016 and ADR-0017 are `Accepted` by explicit human authority; every other foundation ADR remains `Proposed`.
 
 ## Local qualification state
 
-Target: `GREEN_ALETHEIA_FOUNDATION_HARDENING_V01`
+Target: `GREEN_ALETHEIA_RCP_DESCRIPTOR_CONTRACT_V0_1_0`
 
 This state means the ADR set is structurally complete, internally cross-referenced, locally validated, hashed, committed in its own repository, and governed by the accepted federated topology. It does **not** mean scientific validation, clinical validation, remote publication, release, or compatibility with untested future control planes.
 
@@ -15,11 +15,15 @@ This state means the ADR set is structurally complete, internally cross-referenc
 - `docs/adr/` — platform-level ADRs.
 - `modules/kidney/docs/adr/` — Kidney Regeneration Research Control Plane ADRs.
 - `docs/architecture/` — derived architecture summaries.
-- `contracts/`, `schemas/`, and `evidence-packages/` — versioned federation scaffolding.
+- `contracts/research-control-plane-descriptor/0.1.0/` — first executable federation contract.
+- `schemas/research-control-plane-descriptor/0.1.0/` — its normative structural schema and illustrative example.
+- `evidence-packages/` — future versioned evidence-package boundary; no executable evidence-package schema is established.
 - `control-planes/` — conceptual Research Control Plane boundary.
 - `scripts/validate_foundation.py` — local structural and invariant validation.
 - `scripts/validate_accepted_adr_history.py` — accepted-decision continuity against an explicit Git base.
 - `scripts/verify_evidence_zip.py` — generic ZIP container-safety verification.
+- `scripts/validate_rcp_descriptor.py` — stdlib-only RCP Descriptor validation.
+- `tests/contracts/` — unit and adversarial contract qualification.
 - `tests/foundation-hardening/` — independent synthetic adversarial qualification corpus.
 - `docs/security/` — scope and attack-model documentation.
 - `evidence/foundation-v01/` — baseline, decisions, validation, manifest, and snapshot evidence.

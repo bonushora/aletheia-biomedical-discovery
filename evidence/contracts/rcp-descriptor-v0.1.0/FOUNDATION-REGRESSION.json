@@ -1,0 +1,18 @@
+{
+  "schema": "aletheia.rcp-descriptor-foundation-regression.v1",
+  "foundation_validator": "PASS",
+  "foundation_hardening": {
+    "cases": 26,
+    "expected_pass": 2,
+    "expected_reject": 24,
+    "unexpected_pass": 0,
+    "unexpected_fail": 0,
+    "harness_errors": 0,
+    "state": "PASS"
+  },
+  "accepted_adr_history": "PASS",
+  "foundation_manifest": "PASS",
+  "hardening_manifest": "PASS",
+  "adr_0016_byte_identical": true,
+  "accepted_adrs": ["ADR-0016", "ADR-0017"]
+}

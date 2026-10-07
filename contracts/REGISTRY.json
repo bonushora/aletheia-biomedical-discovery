@@ -1,0 +1,16 @@
+{
+  "schema": "aletheia.contract-registry.v1",
+  "contracts": [
+    {
+      "name": "aletheia.research-control-plane-descriptor",
+      "version": "0.1.0",
+      "status": "EXPERIMENTAL",
+      "qualified": true,
+      "qualification_scope": "local exact-SHA qualification recorded in contract evidence and external postcondition",
+      "consumer_compatibility": "NOT_ESTABLISHED",
+      "contract_path": "contracts/research-control-plane-descriptor/0.1.0/CONTRACT.md",
+      "schema_path": "schemas/research-control-plane-descriptor/0.1.0/schema.json",
+      "validator_path": "scripts/validate_rcp_descriptor.py"
+    }
+  ]
+}

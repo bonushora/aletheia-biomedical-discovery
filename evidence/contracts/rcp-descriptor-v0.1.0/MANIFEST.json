@@ -1,0 +1,419 @@
+{
+  "algorithm": "sha256",
+  "exclusions": [
+    ".git/",
+    "**/__pycache__/",
+    "*.pyc",
+    "evidence/contracts/rcp-descriptor-v0.1.0/MANIFEST.json",
+    "evidence/foundation-v01/MANIFEST.json",
+    "evidence/hardening/foundation-v01/MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "fa5b2d4433b835933b22140e01833a4972a0ee8532d76951286e3dd071994af0",
+      "size": 33
+    },
+    {
+      "path": "ADR-REGISTER.json",
+      "sha256": "f0143b918c930acffdf85e99865b75000718963b4ffddb0c19697adcecef4ca6",
+      "size": 8067
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "b7cbef050fddfde626ee32ddf43d65381137a637afefb13b47b774adaf32aec1",
+      "size": 966
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "c55e2a4ce983ace076ab0c547cc75a871563a8e101bde8acc4ca89f899519148",
+      "size": 940
+    },
+    {
+      "path": "INTEGRATION-BOUNDARY.md",
+      "sha256": "8e7bcbd233b4593d5ca540643c5373bddf2e1192de48fb6065b7a727fc5ff2a7",
+      "size": 797
+    },
+    {
+      "path": "README.md",
+      "sha256": "2d6b305232ef6a9a98643311e4b78117db6de29567bbb8e2bdac543ba70d831c",
+      "size": 2297
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "82e9ab0b6cd602507d1b5e9b0811d82a9b29ba752cc8db15957c2f7c67e0f4d4",
+      "size": 1127
+    },
+    {
+      "path": "contracts/COMPATIBILITY-MATRIX.json",
+      "sha256": "00033fabd489e046175703f90ccd7136e21a411be6b83d7304d6e4585d6b9c9f",
+      "size": 354
+    },
+    {
+      "path": "contracts/README.md",
+      "sha256": "a1601e566c6b87af433bb16479954cb8c021d8295b093c753eccf44e956543f0",
+      "size": 843
+    },
+    {
+      "path": "contracts/REGISTRY.json",
+      "sha256": "38ef4ef400dd2ee5938722751fd4d0efce5886934c6dcc4beef8059d47d8e023",
+      "size": 628
+    },
+    {
+      "path": "contracts/VERSIONING.md",
+      "sha256": "c4e5406f8403e43b738c61b99dfce7366c9bdf90fc1a99a1d809dff6fa56c660",
+      "size": 633
+    },
+    {
+      "path": "contracts/research-control-plane-descriptor/0.1.0/CONTRACT.md",
+      "sha256": "9023533c9390e7da06ecc9984f2a04983e7aa64a9ef62388d479aa4992019157",
+      "size": 1808
+    },
+    {
+      "path": "control-planes/README.md",
+      "sha256": "1f6d71ddc15b67aad7557c3346a407c84f6cd42b62877ce41a407e60b516abb9",
+      "size": 635
+    },
+    {
+      "path": "docs/adr/0000-adr-governance-and-lifecycle.md",
+      "sha256": "d21539013bb629975fd73b9c5e1334ea5b7676d6321cabe58a4ea592aac5b044",
+      "size": 1548
+    },
+    {
+      "path": "docs/adr/0001-aletheia-evidence-governed-biomedical-discovery.md",
+      "sha256": "42dccedc8065b96d508b830ad96fd461d87279c91d1428d48ebc09f60e16178a",
+      "size": 1538
+    },
+    {
+      "path": "docs/adr/0002-platform-core-and-research-control-planes.md",
+      "sha256": "83e648e98b77648ea078df02e226c454b2e572a6fbdfaf8b5ad54459474e4076",
+      "size": 1191
+    },
+    {
+      "path": "docs/adr/0003-human-scientific-authority-boundary.md",
+      "sha256": "7496aad97331f44437d5e9d6c7089b083216a3fcba1f06368b29c513ac48ec68",
+      "size": 1274
+    },
+    {
+      "path": "docs/adr/0004-evidence-before-scientific-claim.md",
+      "sha256": "5dd658f5ba8a31478a7c476a8a37f16f75be35f3ba2bc45dc2bb68589eb3409f",
+      "size": 1080
+    },
+    {
+      "path": "docs/adr/0005-immutable-provenance-and-reproducibility-chain.md",
+      "sha256": "8997e21ba161a73ed381dafa545192fd35609fb8cc6b5c7b0bdb44a745ecfe96",
+      "size": 1164
+    },
+    {
+      "path": "docs/adr/0006-scientific-state-machine.md",
+      "sha256": "1d04b71914c042dc78c7e72e764afa92b118272d22161b0bbcfe487e89399b71",
+      "size": 1006
+    },
+    {
+      "path": "docs/adr/0007-separation-observation-interpretation-intervention.md",
+      "sha256": "c42521e2bca4f87e66f97896a514b1c30f80ec021b6b1cc0eea70eb7724fb5b6",
+      "size": 964
+    },
+    {
+      "path": "docs/adr/0008-no-silent-data-mutation.md",
+      "sha256": "b7bc0efe4284f00aea25b79566bf3433496dc491687651e133e43bfe7e99d7e1",
+      "size": 886
+    },
+    {
+      "path": "docs/adr/0009-hypothesis-generation-is-not-validation.md",
+      "sha256": "513343917442de1d8003c6ac8c85700d6d03593309053149a0f3806ece4467d2",
+      "size": 863
+    },
+    {
+      "path": "docs/adr/0010-cross-domain-evidence-graph.md",
+      "sha256": "930239c32994c4f48aa5ef9f4c8923e1151cb29336253de7693f94fb57713bb6",
+      "size": 942
+    },
+    {
+      "path": "docs/adr/0011-external-literature-and-dataset-trust-model.md",
+      "sha256": "5a8363f1216e0899a6c08da3a4ceb2aa75c714515519cee6b2e7b051f018f55f",
+      "size": 1095
+    },
+    {
+      "path": "docs/adr/0012-reproducible-scientific-packaging.md",
+      "sha256": "187dc70ad17351cd50214b7771bde48dec721af807bca28814133b43dc23ce04",
+      "size": 1008
+    },
+    {
+      "path": "docs/adr/0013-research-only-boundary-and-clinical-non-authority.md",
+      "sha256": "0b6bd2ad400db99133a244586fb12daaa2f727672f996d8010344aab1804e18f",
+      "size": 952
+    },
+    {
+      "path": "docs/adr/0014-sensitive-human-data-consent-privacy-controlled-access.md",
+      "sha256": "67bef57daa9a00bce04df11807af9447aa11494699162a0595df3a8316eb8f6c",
+      "size": 1062
+    },
+    {
+      "path": "docs/adr/0015-ai-model-agent-non-authority-and-reproducible-inference.md",
+      "sha256": "32e9e32488f8f262e016d7296892ec79d726a0c3083bcde8ffd694be9f6e2cfb",
+      "size": 1078
+    },
+    {
+      "path": "docs/adr/0016-repository-topology-and-module-integration-model.md",
+      "sha256": "1aab1f4fc8166d4d83b051566dbbceca704ad372000d3297cf854b17932de228",
+      "size": 2522
+    },
+    {
+      "path": "docs/adr/0017-adversarial-hardening-and-qualification-model.md",
+      "sha256": "47481bb70772b3de245d542c1c0832775eafae0eb0e98087fdc74e5b21a0760e",
+      "size": 2818
+    },
+    {
+      "path": "docs/adr/README.md",
+      "sha256": "8037520610c48c595b377f1e6ba6cd921c8f5513d4eb8e61bc012604e7bc4d9a",
+      "size": 1710
+    },
+    {
+      "path": "docs/architecture/COMPATIBILITY-MODEL.md",
+      "sha256": "048ad6af8f0f271c2903018d4896c054cb402f37222b84316a21a22d2a510103",
+      "size": 833
+    },
+    {
+      "path": "docs/architecture/FEDERATION-MODEL.md",
+      "sha256": "51668bc7b34dd7058f0735355399bfe120cf2b4e5fa2a3716cffae33526a662a",
+      "size": 725
+    },
+    {
+      "path": "docs/architecture/PLATFORM-TOPOLOGY.md",
+      "sha256": "27daeae230f2818bd7a50f830ed978df9d90aa57131fd0b63e18381c2649a2a8",
+      "size": 731
+    },
+    {
+      "path": "docs/architecture/SCIENTIFIC-STATE-MACHINE.md",
+      "sha256": "5086815b9e043f1f7c25a74e16ebb0dd717816273dff5793ffebd9340c16770d",
+      "size": 785
+    },
+    {
+      "path": "docs/security/FOUNDATION-HARDENING-ATTACK-MATRIX.md",
+      "sha256": "37eb05eb1a498a6a7e11507e17bed72e481979d7baa061df67fbdc35b319b4ee",
+      "size": 1226
+    },
+    {
+      "path": "docs/security/FOUNDATION-HARDENING-MODEL.md",
+      "sha256": "a16eb993ac671b92aa156baa048bc70581ec47add5f2560130446b9bfb3658a8",
+      "size": 1843
+    },
+    {
+      "path": "evidence-packages/README.md",
+      "sha256": "bf992f1c6605039bdc2174ff1e6b3bdfac55ce14c0373ae6d8ce32bf3441c2b1",
+      "size": 476
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/BASELINE.json",
+      "sha256": "c2e0b28dcbb047060299456fb249a5637dbba2c373f8d00f77dddbcebd5cbf31",
+      "size": 576
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/CONTRACT-IDENTITY.json",
+      "sha256": "60abddccdec07f9701a2dc1c23de0689344e7458f7e4fe4825e67e4abc7c771d",
+      "size": 1042
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/FOUNDATION-REGRESSION.json",
+      "sha256": "8b7351a250e496d6ad19a36b22596fb6054ace43e4a26d532cadf872dad27c34",
+      "size": 478
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/HARDENING-RESULTS.json",
+      "sha256": "a5f228be574c48f32cd36cc5f8ba3911e67465e6359ef154de8621c268d3bb56",
+      "size": 14963
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/KIDNEY-PRESERVATION.json",
+      "sha256": "5613b680194b074a99f4fe1f725fcb2780be998ee03043dbc3efd123e10c6283",
+      "size": 1015
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/REPORT.md",
+      "sha256": "2807031ca39fc37e01066742f24a1400137807a082da6569995c9d11ee4e063e",
+      "size": 997
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/SCHEMA-STRUCTURE.json",
+      "sha256": "e1b296e45904970b5e256a8ec8c789215719d5acb23924863b71d5dfdda9c5a3",
+      "size": 318
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/UNIT-TESTS.json",
+      "sha256": "f576e16b4657a7d6bdb3fa20df49d802f1c18b00343be53c338571897b1039d0",
+      "size": 222
+    },
+    {
+      "path": "evidence/contracts/rcp-descriptor-v0.1.0/sdp_snapshot.json",
+      "sha256": "952d5a424ab0e2480d928b74c328ff05e7c6ea937c64e1e7fd7c0e98e1b32f4f",
+      "size": 806
+    },
+    {
+      "path": "evidence/foundation-v01/BASELINE.json",
+      "sha256": "4895537294736bb12e9bad424fc58d4e762ae5fabb7d3d748ac2b02d679710b2",
+      "size": 1332
+    },
+    {
+      "path": "evidence/foundation-v01/DECISIONS.json",
+      "sha256": "65cc9c98495f52bbc710cdac1721b1e8d6d3b840f6ce8ad21404486adcddf4f3",
+      "size": 888
+    },
+    {
+      "path": "evidence/foundation-v01/KIDNEY-PRESERVATION.json",
+      "sha256": "3d403a8a5864cdc3f0da94ba16fde3ff39f588ce2e82040931c6eedead96e116",
+      "size": 1352
+    },
+    {
+      "path": "evidence/foundation-v01/VALIDATION.json",
+      "sha256": "9865d8651ea50bfcabfca69f0b4884fbb1020d9ab3855823a6eab988b5616c64",
+      "size": 18464
+    },
+    {
+      "path": "evidence/foundation-v01/sdp_snapshot.json",
+      "sha256": "533a3ebf886b27b13b8256bb5df7c265a1571e373c443198bd65f52ef5239d36",
+      "size": 806
+    },
+    {
+      "path": "evidence/hardening/foundation-v01/ACCEPTED-ADR-CONTINUITY.json",
+      "sha256": "436f1b4add3d632f90bcb7322a8d960efb808b21527af4098a0d2c1fc5fd0055",
+      "size": 650
+    },
+    {
+      "path": "evidence/hardening/foundation-v01/ATTACK-MATRIX.json",
+      "sha256": "74f4600d7653ee527a6afcad126989e0895832f6e27510f2d814f605a82da663",
+      "size": 1976
+    },
+    {
+      "path": "evidence/hardening/foundation-v01/BASELINE.json",
+      "sha256": "899125633fa422036efab00984bd5a39899aba11cad7da7427a5a11cae3452e2",
+      "size": 1171
+    },
+    {
+      "path": "evidence/hardening/foundation-v01/GREEN-RESULTS.json",
+      "sha256": "65c2b54f36651aa459092485b5f6aa5191d19cd8d99e60036b96bf6571807116",
+      "size": 13642
+    },
+    {
+      "path": "evidence/hardening/foundation-v01/KIDNEY-PRESERVATION.json",
+      "sha256": "5613b680194b074a99f4fe1f725fcb2780be998ee03043dbc3efd123e10c6283",
+      "size": 1015
+    },
+    {
+      "path": "evidence/hardening/foundation-v01/RED-RESULTS.json",
+      "sha256": "37efa41ec7af385312fd8ecf3b047e931c5fbce8cb05426214fbb7dc1408d602",
+      "size": 1374
+    },
+    {
+      "path": "evidence/hardening/foundation-v01/REPORT.md",
+      "sha256": "f495b713e8c6509a11c177619879a63b1b73db1270d062b7e1babdf4edfcae31",
+      "size": 1072
+    },
+    {
+      "path": "evidence/hardening/foundation-v01/VALIDATION.json",
+      "sha256": "9865d8651ea50bfcabfca69f0b4884fbb1020d9ab3855823a6eab988b5616c64",
+      "size": 18464
+    },
+    {
+      "path": "evidence/hardening/foundation-v01/sdp_snapshot.json",
+      "sha256": "598730610b807fc8d167da0fe20dfc42c771b57773ab3f1050f6aecf0a99f78c",
+      "size": 812
+    },
+    {
+      "path": "modules/kidney/docs/adr/0001-kidney-control-plane-scope.md",
+      "sha256": "28225dfa1fdb7db07aec9f967fd987ceacebaf012ef2f81eddc704e240ccdf24",
+      "size": 615
+    },
+    {
+      "path": "modules/kidney/docs/adr/0002-qualified-kidney-dataset-intake.md",
+      "sha256": "ff90a256202c4187ae5ee52b0d0ceea1672c5f7d6af1ed21f8b6d91be1c823ac",
+      "size": 543
+    },
+    {
+      "path": "modules/kidney/docs/adr/0003-single-cell-qc-human-reviewed-policy.md",
+      "sha256": "70b8b6e207336fe2fee8e873630a8a01fbb2b278479ce82a563e8de35cdf04a5",
+      "size": 988
+    },
+    {
+      "path": "modules/kidney/docs/adr/0004-cell-identity-annotation-evidence-model.md",
+      "sha256": "f5d282ab9e4f80d09efec5612bd101ad54d868ee2c86a8c7777e8084dc3cab35",
+      "size": 626
+    },
+    {
+      "path": "modules/kidney/docs/adr/0005-organoid-developmental-reference-model.md",
+      "sha256": "3eb0c3b40eff0e846bed85e81b4df4e57ffded864e62b5ad4840a89c478ae4a7",
+      "size": 546
+    },
+    {
+      "path": "modules/kidney/docs/adr/0006-cross-dataset-replication-before-candidate-promotion.md",
+      "sha256": "9204a1d58e0685cc9d40c446d4e0c84c66256561ad746e6d79662ab31d00a995",
+      "size": 521
+    },
+    {
+      "path": "modules/kidney/docs/adr/0007-regenerative-candidate-evidence-ladder.md",
+      "sha256": "9a60c0070438a08dd285bd8e6279c6f0cfce6e7fcad44f5b5d5ac3ed5c7c7db9",
+      "size": 639
+    },
+    {
+      "path": "modules/kidney/docs/adr/0008-experimental-hypothesis-handoff-boundary.md",
+      "sha256": "f9224bfb14beb90a5c3ee4ae2c737cec2b58d3a79a0bd432740646c0ecddcd26",
+      "size": 702
+    },
+    {
+      "path": "modules/kidney/docs/adr/README.md",
+      "sha256": "7b265dcd13c86bb6f46492022f4c7b1bef9e812f133739f7d4200828f43f6879",
+      "size": 749
+    },
+    {
+      "path": "schemas/README.md",
+      "sha256": "40ef1b8f0f1e457ccfe785ec3a1e9e2a3e89907a8b8edba704a71b157c140974",
+      "size": 700
+    },
+    {
+      "path": "schemas/research-control-plane-descriptor/0.1.0/examples/valid-minimal.json",
+      "sha256": "5aaf3634cb67bd58a7a6b6dbfa1d44668c4819eb597a8f585033346a00413d1c",
+      "size": 735
+    },
+    {
+      "path": "schemas/research-control-plane-descriptor/0.1.0/schema.json",
+      "sha256": "b2fb81b391f7b099886104bc2ea6090d19c9364fc68d78c28f666907bc530f0a",
+      "size": 2891
+    },
+    {
+      "path": "scripts/validate_accepted_adr_history.py",
+      "sha256": "839f7ce73ca89f8df25280ba624b55c7eb6f354b97c8d5a362313c9792dd8103",
+      "size": 4914
+    },
+    {
+      "path": "scripts/validate_foundation.py",
+      "sha256": "f69f153a56748a3a2a536cd535f4bb15f27b58afe08cdd988a0cc469234f3420",
+      "size": 15610
+    },
+    {
+      "path": "scripts/validate_rcp_descriptor.py",
+      "sha256": "8f3d4913fda5dc38a0cdc80a38ea852e2f116a88b9086784aacadec7fc58a658",
+      "size": 12304
+    },
+    {
+      "path": "scripts/verify_evidence_zip.py",
+      "sha256": "5717ccdfe274884f658d81b31717ac16472cab34f9fe96635c6a0f75f46791db",
+      "size": 3854
+    },
+    {
+      "path": "tests/contracts/run_rcp_descriptor_hardening.py",
+      "sha256": "fcb60459ee7d0b4b0b313a2cc2f2c5baea5cd7b02d2aaac2b4d29f14d60412a7",
+      "size": 7109
+    },
+    {
+      "path": "tests/contracts/test_rcp_descriptor.py",
+      "sha256": "e9ca228a7863c2dae8c416ced7bafb63883b31cef524fca97811b951c671e660",
+      "size": 10599
+    },
+    {
+      "path": "tests/foundation-hardening/run_foundation_hardening.py",
+      "sha256": "ad97b5e059e606b6cd531dfbaca9dd86e93a1548a749ab62587cd3d14166bc73",
+      "size": 11920
+    }
+  ],
+  "schema": "aletheia.rcp-descriptor-evidence-manifest.v1"
+}
