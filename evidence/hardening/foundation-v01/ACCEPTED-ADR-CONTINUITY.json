@@ -1,0 +1,19 @@
+{
+  "accepted_adrs": 1,
+  "base": "efe611728229ab4abeb92bc33d857ec8760ce8a1",
+  "errors": [],
+  "observations": [
+    {
+      "adr": "ADR-0016",
+      "base_sha256": "1aab1f4fc8166d4d83b051566dbbceca704ad372000d3297cf854b17932de228",
+      "current_sha256": "1aab1f4fc8166d4d83b051566dbbceca704ad372000d3297cf854b17932de228",
+      "governance_evidence": null,
+      "pass": true,
+      "path": "docs/adr/0016-repository-topology-and-module-integration-model.md",
+      "unchanged": true
+    }
+  ],
+  "root": "/home/usuario/Desenvolvimento/bonushora/aletheia-biomedical-discovery",
+  "schema": "aletheia.accepted-adr-history.v1",
+  "state": "PASS"
+}

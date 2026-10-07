@@ -122,6 +122,13 @@
       "sha256": "1aab1f4fc8166d4d83b051566dbbceca704ad372000d3297cf854b17932de228"
     },
     {
+      "group": "platform",
+      "path": "docs/adr/0017-adversarial-hardening-and-qualification-model.md",
+      "title": "ADR-0017 — Adversarial Hardening and Qualification Model",
+      "status": "Proposed",
+      "sha256": "141155c0fdddd329a6225a989a41ad794e85a40d95b9a6d1f455b82ed9e64085"
+    },
+    {
       "group": "kidney",
       "path": "modules/kidney/docs/adr/0001-kidney-control-plane-scope.md",
       "title": "ADR-KR-0001 — Kidney Regeneration Research Control Plane Scope",

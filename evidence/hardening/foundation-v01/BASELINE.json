@@ -1,0 +1,27 @@
+{
+  "schema": "aletheia.foundation-hardening-baseline.v1",
+  "captured_utc": "2026-10-07T20:11:45Z",
+  "runner": {
+    "path": "/home/usuario/Downloads/Runner_Aletheia_Foundation_Hardening_v01_LONG.md",
+    "sha256": "9220109a9cf61f3f2f5da6cbfee7079c6f841c11628ce75e81efa5504e95953b"
+  },
+  "aletheia": {
+    "physical_path": "/home/usuario/Desenvolvimento/bonushora/aletheia-biomedical-discovery",
+    "branch": "main",
+    "head": "efe611728229ab4abeb92bc33d857ec8760ce8a1",
+    "worktree": "CLEAN",
+    "remote": "NOT_ESTABLISHED",
+    "tracked_files": 50,
+    "nominal_validator": "PASS_25_ADRS_120_CHECKS"
+  },
+  "accepted_adr_0016_sha256": "1aab1f4fc8166d4d83b051566dbbceca704ad372000d3297cf854b17932de228",
+  "kidney": {
+    "physical_path": "/home/usuario/Desenvolvimento/bonushora/kidney-regeneration-research",
+    "branch": "main",
+    "head": "30ecd32f4639949755a0062670389913129321b4",
+    "status": " M tests/test_replication_bridge.py",
+    "working_diff_sha256": "90c0727421362e4a9da39c92a95dce7f1f42814173c4f90301837c89df10a85c",
+    "cached_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked_files": 74
+  }
+}

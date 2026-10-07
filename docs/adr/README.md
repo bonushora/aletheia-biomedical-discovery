@@ -21,3 +21,4 @@ Platform ADRs define global architecture and governance. Kidney ADRs in [`../../
 | ADR-0014 | Sensitive human data, consent, privacy, and controlled access | Proposed |
 | ADR-0015 | AI model and agent non-authority with reproducible inference | Proposed |
 | ADR-0016 | Repository topology and module integration model | Accepted |
+| ADR-0017 | Adversarial hardening and qualification model | Proposed |

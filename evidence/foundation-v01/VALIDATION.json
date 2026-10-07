@@ -1,9 +1,9 @@
 {
-  "adr_count": 25,
+  "adr_count": 26,
   "checks": [
     {
       "check": "core_adr_count",
-      "detail": "17",
+      "detail": "18",
       "pass": true
     },
     {
@@ -13,12 +13,12 @@
     },
     {
       "check": "total_adr_count",
-      "detail": "25",
+      "detail": "26",
       "pass": true
     },
     {
       "check": "core_ids_complete",
-      "detail": "['0000', '0001', '0002', '0003', '0004', '0005', '0006', '0007', '0008', '0009', '0010', '0011', '0012', '0013', '0014', '0015', '0016']",
+      "detail": "['0000', '0001', '0002', '0003', '0004', '0005', '0006', '0007', '0008', '0009', '0010', '0011', '0012', '0013', '0014', '0015', '0016', '0017']",
       "pass": true
     },
     {
@@ -282,6 +282,21 @@
       "pass": true
     },
     {
+      "check": "title:0017-adversarial-hardening-and-qualification-model.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0017-adversarial-hardening-and-qualification-model.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0017-adversarial-hardening-and-qualification-model.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
       "check": "title:0001-kidney-control-plane-scope.md",
       "detail": "ADR identifier in title",
       "pass": true
@@ -403,12 +418,17 @@
     },
     {
       "check": "adr_ids_unique",
-      "detail": "['ADR-0000', 'ADR-0001', 'ADR-0002', 'ADR-0003', 'ADR-0004', 'ADR-0005', 'ADR-0006', 'ADR-0007', 'ADR-0008', 'ADR-0009', 'ADR-0010', 'ADR-0011', 'ADR-0012', 'ADR-0013', 'ADR-0014', 'ADR-0015', 'ADR-0016', 'ADR-KR-0001', 'ADR-KR-0002', 'ADR-KR-0003', 'ADR-KR-0004', 'ADR-KR-0005', 'ADR-KR-0006', 'ADR-KR-0007', 'ADR-KR-0008']",
+      "detail": "['ADR-0000', 'ADR-0001', 'ADR-0002', 'ADR-0003', 'ADR-0004', 'ADR-0005', 'ADR-0006', 'ADR-0007', 'ADR-0008', 'ADR-0009', 'ADR-0010', 'ADR-0011', 'ADR-0012', 'ADR-0013', 'ADR-0014', 'ADR-0015', 'ADR-0016', 'ADR-0017', 'ADR-KR-0001', 'ADR-KR-0002', 'ADR-KR-0003', 'ADR-KR-0004', 'ADR-KR-0005', 'ADR-KR-0006', 'ADR-KR-0007', 'ADR-KR-0008']",
       "pass": true
     },
     {
       "check": "adr_0016_accepted",
       "detail": "Accepted",
+      "pass": true
+    },
+    {
+      "check": "adr_0017_proposed",
+      "detail": "Proposed",
       "pass": true
     },
     {
@@ -517,6 +537,16 @@
       "pass": true
     },
     {
+      "check": "required:docs/security/FOUNDATION-HARDENING-ATTACK-MATRIX.md",
+      "detail": "docs/security/FOUNDATION-HARDENING-ATTACK-MATRIX.md",
+      "pass": true
+    },
+    {
+      "check": "required:docs/security/FOUNDATION-HARDENING-MODEL.md",
+      "detail": "docs/security/FOUNDATION-HARDENING-MODEL.md",
+      "pass": true
+    },
+    {
       "check": "required:evidence-packages/README.md",
       "detail": "evidence-packages/README.md",
       "pass": true
@@ -527,8 +557,23 @@
       "pass": true
     },
     {
+      "check": "required:scripts/validate_accepted_adr_history.py",
+      "detail": "scripts/validate_accepted_adr_history.py",
+      "pass": true
+    },
+    {
       "check": "required:scripts/validate_foundation.py",
       "detail": "scripts/validate_foundation.py",
+      "pass": true
+    },
+    {
+      "check": "required:scripts/verify_evidence_zip.py",
+      "detail": "scripts/verify_evidence_zip.py",
+      "pass": true
+    },
+    {
+      "check": "required:tests/foundation-hardening/run_foundation_hardening.py",
+      "detail": "tests/foundation-hardening/run_foundation_hardening.py",
       "pass": true
     },
     {
@@ -537,7 +582,22 @@
       "pass": true
     },
     {
-      "check": "no_expression_data",
+      "check": "no_casefold_path_collisions",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "no_windows_reserved_paths",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "no_trailing_dot_or_space_paths",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "no_raw_biomedical_payloads",
       "detail": "[]",
       "pass": true
     },
@@ -578,7 +638,7 @@
     },
     {
       "check": "register_record_count",
-      "detail": "25",
+      "detail": "26",
       "pass": true
     },
     {
@@ -592,12 +652,18 @@
       "pass": true
     },
     {
+      "check": "register_adr_0017_proposed",
+      "detail": "Proposed",
+      "pass": true
+    },
+    {
       "check": "manifest_deterministic",
       "detail": "two independent renders",
       "pass": true
     }
   ],
   "errors": [],
+  "root": "/home/usuario/Desenvolvimento/bonushora/aletheia-biomedical-discovery",
   "schema": "aletheia.foundation-validation.v1",
   "state": "PASS"
 }

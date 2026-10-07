@@ -1,0 +1,32 @@
+{
+  "schema": "aletheia.foundation-hardening-red-results.v1",
+  "captured_utc": "2026-10-07T20:11:45Z",
+  "state": "RED",
+  "cases_total": 26,
+  "unexpected_pass": 0,
+  "unexpected_fail": 1,
+  "harness_errors": 0,
+  "gaps": [
+    {
+      "attack_id": "H24",
+      "classification": "NEW_TEST_EXPOSED_GAP",
+      "expected": "PASS",
+      "observed": "REJECT",
+      "exit_code": 1,
+      "control": "scripts/verify_evidence_zip.py",
+      "reason": "A normal ZIP member carrying permission bits without explicit Unix file-type bits was misclassified as a special member.",
+      "original_result_sha256": "7dcae4e10a070a0b994a5f13526c7cc87d307715ec5254ba6e2a0ed83fdb7d6d",
+      "correction": "Interpret the file-type mask separately and accept type zero as an ordinary ZIP member representation."
+    },
+    {
+      "attack_id": "H13",
+      "classification": "NEW_TEST_EXPOSED_GAP",
+      "expected": "REJECT_IN_GOVERNED_MARKDOWN",
+      "observed": "EVIDENCE_JSON_FALSE_POSITIVE",
+      "exit_code": 1,
+      "control": "scripts/validate_foundation.py",
+      "reason": "After GREEN evidence was materialized, the validator treated attack delimiters preserved inside machine-readable JSON as an unresolved Markdown conflict.",
+      "correction": "Apply the conflict-marker rule to governed Markdown while retaining H13 injection and rejection in README.md."
+    }
+  ]
+}

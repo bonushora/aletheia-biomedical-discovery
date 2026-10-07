@@ -6,7 +6,7 @@ This repository is intentionally documentation-first. It does **not** modify bio
 
 ## Local qualification state
 
-Target: `GREEN_ALETHEIA_ADR_FOUNDATION_INTEGRATED`
+Target: `GREEN_ALETHEIA_FOUNDATION_HARDENING_V01`
 
 This state means the ADR set is structurally complete, internally cross-referenced, locally validated, hashed, committed in its own repository, and governed by the accepted federated topology. It does **not** mean scientific validation, clinical validation, remote publication, release, or compatibility with untested future control planes.
 
@@ -18,6 +18,10 @@ This state means the ADR set is structurally complete, internally cross-referenc
 - `contracts/`, `schemas/`, and `evidence-packages/` — versioned federation scaffolding.
 - `control-planes/` — conceptual Research Control Plane boundary.
 - `scripts/validate_foundation.py` — local structural and invariant validation.
+- `scripts/validate_accepted_adr_history.py` — accepted-decision continuity against an explicit Git base.
+- `scripts/verify_evidence_zip.py` — generic ZIP container-safety verification.
+- `tests/foundation-hardening/` — independent synthetic adversarial qualification corpus.
+- `docs/security/` — scope and attack-model documentation.
 - `evidence/foundation-v01/` — baseline, decisions, validation, manifest, and snapshot evidence.
 
 ## Authority boundary
