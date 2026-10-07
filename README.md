@@ -2,7 +2,7 @@
 
 Local architecture foundation for an evidence-governed biomedical discovery platform.
 
-This repository is intentionally documentation-first. It does **not** modify biomedical data, production code, or the existing kidney research repository. ADR-0016 is `Accepted` by explicit human authority; every other foundation ADR remains `Proposed`.
+This repository is intentionally documentation-first. It does **not** modify biomedical data or the existing kidney research repository. ADR-0016 and ADR-0017 are `Accepted` by explicit human authority; every other foundation ADR remains `Proposed`.
 
 ## Local qualification state
 

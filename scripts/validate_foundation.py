@@ -140,10 +140,10 @@ def main() -> int:
 
     check("adr_ids_unique", len(title_ids) == len(set(title_ids)), title_ids)
     check("adr_0016_accepted", statuses.get("ADR-0016") == "Accepted", statuses.get("ADR-0016"))
-    check("adr_0017_proposed", statuses.get("ADR-0017") == "Proposed", statuses.get("ADR-0017"))
+    check("adr_0017_accepted", statuses.get("ADR-0017") == "Accepted", statuses.get("ADR-0017"))
     accepted = sorted(identifier for identifier, status in statuses.items() if status == "Accepted")
-    check("only_adr_0016_accepted", accepted == ["ADR-0016"], accepted)
-    unexpected_status = sorted(identifier for identifier, status in statuses.items() if identifier != "ADR-0016" and status != "Proposed")
+    check("accepted_set_exact", accepted == ["ADR-0016", "ADR-0017"], accepted)
+    unexpected_status = sorted(identifier for identifier, status in statuses.items() if identifier not in {"ADR-0016", "ADR-0017"} and status != "Proposed")
     check("other_adrs_remain_proposed", not unexpected_status, unexpected_status)
 
     adr_0016 = next((path for path in core_files if path.name.startswith("0016-")), None)
@@ -254,9 +254,9 @@ def main() -> int:
                 mismatched_hashes.append(relative)
         check("register_hashes_match", not mismatched_hashes, mismatched_hashes)
         accepted_records = sorted(path for path, status in register_status.items() if status == "Accepted")
-        check("register_only_adr_0016_accepted", accepted_records == ["docs/adr/0016-repository-topology-and-module-integration-model.md"], accepted_records)
+        check("register_accepted_set_exact", accepted_records == ["docs/adr/0016-repository-topology-and-module-integration-model.md", "docs/adr/0017-adversarial-hardening-and-qualification-model.md"], accepted_records)
         path_0017 = "docs/adr/0017-adversarial-hardening-and-qualification-model.md"
-        check("register_adr_0017_proposed", register_status.get(path_0017) == "Proposed", register_status.get(path_0017))
+        check("register_adr_0017_accepted", register_status.get(path_0017) == "Accepted", register_status.get(path_0017))
     except (OSError, KeyError, TypeError, json.JSONDecodeError) as error:
         check("register_readable", False, error)
 

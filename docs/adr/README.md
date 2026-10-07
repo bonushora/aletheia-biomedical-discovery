@@ -1,6 +1,6 @@
 # Aletheia platform ADR register
 
-Platform ADRs define global architecture and governance. Kidney ADRs in [`../../modules/kidney/docs/adr/`](../../modules/kidney/docs/adr/) define the proposed behavior of the first federated Research Control Plane; they do not copy or mutate its external repository. Acceptance requires an explicit human decision. In this foundation, only ADR-0016 has that authority.
+Platform ADRs define global architecture and governance. Kidney ADRs in [`../../modules/kidney/docs/adr/`](../../modules/kidney/docs/adr/) define the proposed behavior of the first federated Research Control Plane; they do not copy or mutate its external repository. Acceptance requires an explicit human decision. ADR-0016 and ADR-0017 have that authority.
 
 | ID | Title | Status |
 |---|---|---|
@@ -21,4 +21,4 @@ Platform ADRs define global architecture and governance. Kidney ADRs in [`../../
 | ADR-0014 | Sensitive human data, consent, privacy, and controlled access | Proposed |
 | ADR-0015 | AI model and agent non-authority with reproducible inference | Proposed |
 | ADR-0016 | Repository topology and module integration model | Accepted |
-| ADR-0017 | Adversarial hardening and qualification model | Proposed |
+| ADR-0017 | Adversarial hardening and qualification model | Accepted |

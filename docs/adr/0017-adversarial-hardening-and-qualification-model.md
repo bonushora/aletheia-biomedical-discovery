@@ -1,8 +1,9 @@
 # ADR-0017 — Adversarial Hardening and Qualification Model
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-10-07
-- **Authority:** Proposed for explicit human architectural review
+- **Decision date:** 2026-10-07
+- **Authority:** Explicit human approval
 - **Scope:** Foundation integrity and qualification boundaries
 
 ## Context

@@ -15,7 +15,7 @@
     },
     {
       "path": "ADR-REGISTER.json",
-      "sha256": "c7c26c44280ad95c63fd8c9a4d8e4db290dd9435bb48967cd06c2f005af16187",
+      "sha256": "f0143b918c930acffdf85e99865b75000718963b4ffddb0c19697adcecef4ca6",
       "size": 8067
     },
     {
@@ -35,8 +35,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "000da74f9030778a1b267e475e9e90f7dc3a6abcdc71f3d94b718c91f65049b7",
-      "size": 1867
+      "sha256": "eca81b599a0e23cd4d896773a44e2391884c559af040d5473912927bc63634be",
+      "size": 1863
     },
     {
       "path": "SOURCES.md",
@@ -145,13 +145,13 @@
     },
     {
       "path": "docs/adr/0017-adversarial-hardening-and-qualification-model.md",
-      "sha256": "141155c0fdddd329a6225a989a41ad794e85a40d95b9a6d1f455b82ed9e64085",
-      "size": 2811
+      "sha256": "47481bb70772b3de245d542c1c0832775eafae0eb0e98087fdc74e5b21a0760e",
+      "size": 2818
     },
     {
       "path": "docs/adr/README.md",
-      "sha256": "d2a92518dd1141eecfe56647e5d11af39460531c9fcf08c5a2d57649cc7ad9e3",
-      "size": 1721
+      "sha256": "8037520610c48c595b377f1e6ba6cd921c8f5513d4eb8e61bc012604e7bc4d9a",
+      "size": 1710
     },
     {
       "path": "docs/architecture/COMPATIBILITY-MODEL.md",
@@ -195,8 +195,8 @@
     },
     {
       "path": "evidence/foundation-v01/DECISIONS.json",
-      "sha256": "0faf264a745dad350f992d3168d21eea0a8355b05b844dfc7f50ca4f6a5a8a0b",
-      "size": 488
+      "sha256": "65cc9c98495f52bbc710cdac1721b1e8d6d3b840f6ce8ad21404486adcddf4f3",
+      "size": 888
     },
     {
       "path": "evidence/foundation-v01/KIDNEY-PRESERVATION.json",
@@ -205,8 +205,8 @@
     },
     {
       "path": "evidence/foundation-v01/VALIDATION.json",
-      "sha256": "842378587a7e642693f584aa2f87ac3cedbdec90fe6ce3a8b3628bac045563c4",
-      "size": 18394
+      "sha256": "9865d8651ea50bfcabfca69f0b4884fbb1020d9ab3855823a6eab988b5616c64",
+      "size": 18464
     },
     {
       "path": "evidence/foundation-v01/sdp_snapshot.json",
@@ -230,8 +230,8 @@
     },
     {
       "path": "evidence/hardening/foundation-v01/GREEN-RESULTS.json",
-      "sha256": "864f2753ee968cbda6bf5db7c4ea2f84e13151a68ffa56b26dd030273f922f07",
-      "size": 13584
+      "sha256": "65c2b54f36651aa459092485b5f6aa5191d19cd8d99e60036b96bf6571807116",
+      "size": 13642
     },
     {
       "path": "evidence/hardening/foundation-v01/KIDNEY-PRESERVATION.json",
@@ -250,8 +250,8 @@
     },
     {
       "path": "evidence/hardening/foundation-v01/VALIDATION.json",
-      "sha256": "842378587a7e642693f584aa2f87ac3cedbdec90fe6ce3a8b3628bac045563c4",
-      "size": 18394
+      "sha256": "9865d8651ea50bfcabfca69f0b4884fbb1020d9ab3855823a6eab988b5616c64",
+      "size": 18464
     },
     {
       "path": "evidence/hardening/foundation-v01/sdp_snapshot.json",
@@ -315,8 +315,8 @@
     },
     {
       "path": "scripts/validate_foundation.py",
-      "sha256": "4a49e0ce37d0827047ca9e3be2dc44c63019a785b5dac60c2aa2c02c0c53d00a",
-      "size": 15403
+      "sha256": "470d6b4c76d5f80e4bc14288797af2b480ac6891e2ed282e55585644884d5f94",
+      "size": 15491
     },
     {
       "path": "scripts/verify_evidence_zip.py",
@@ -325,8 +325,8 @@
     },
     {
       "path": "tests/foundation-hardening/run_foundation_hardening.py",
-      "sha256": "3ad32e967e0177b6ba6a4e873ba5c290498ad36d17c298680ca999ed6f2f72b3",
-      "size": 11854
+      "sha256": "ad97b5e059e606b6cd531dfbaca9dd86e93a1548a749ab62587cd3d14166bc73",
+      "size": 11920
     }
   ],
   "schema": "aletheia.foundation-manifest.v1"

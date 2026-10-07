@@ -427,13 +427,13 @@
       "pass": true
     },
     {
-      "check": "adr_0017_proposed",
-      "detail": "Proposed",
+      "check": "adr_0017_accepted",
+      "detail": "Accepted",
       "pass": true
     },
     {
-      "check": "only_adr_0016_accepted",
-      "detail": "['ADR-0016']",
+      "check": "accepted_set_exact",
+      "detail": "['ADR-0016', 'ADR-0017']",
       "pass": true
     },
     {
@@ -647,13 +647,13 @@
       "pass": true
     },
     {
-      "check": "register_only_adr_0016_accepted",
-      "detail": "['docs/adr/0016-repository-topology-and-module-integration-model.md']",
+      "check": "register_accepted_set_exact",
+      "detail": "['docs/adr/0016-repository-topology-and-module-integration-model.md', 'docs/adr/0017-adversarial-hardening-and-qualification-model.md']",
       "pass": true
     },
     {
-      "check": "register_adr_0017_proposed",
-      "detail": "Proposed",
+      "check": "register_adr_0017_accepted",
+      "detail": "Accepted",
       "pass": true
     },
     {

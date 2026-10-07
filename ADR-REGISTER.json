@@ -125,8 +125,8 @@
       "group": "platform",
       "path": "docs/adr/0017-adversarial-hardening-and-qualification-model.md",
       "title": "ADR-0017 — Adversarial Hardening and Qualification Model",
-      "status": "Proposed",
-      "sha256": "141155c0fdddd329a6225a989a41ad794e85a40d95b9a6d1f455b82ed9e64085"
+      "status": "Accepted",
+      "sha256": "47481bb70772b3de245d542c1c0832775eafae0eb0e98087fdc74e5b21a0760e"
     },
     {
       "group": "kidney",

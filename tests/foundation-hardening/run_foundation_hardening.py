@@ -111,7 +111,7 @@ def execute_case(case_id: str, fixture: Path, work: Path) -> subprocess.Complete
     if case_id == "H01":
         return validator(fixture)
     if case_id == "H02":
-        replace(fixture / ADR_0017, "**Status:** Proposed", "**Status:** Accepted")
+        replace(fixture / "docs/adr/0015-ai-model-agent-non-authority-and-reproducible-inference.md", "**Status:** Proposed", "**Status:** Accepted")
     elif case_id == "H03":
         replace(fixture / ADR_0016, "**Status:** Accepted", "**Status:** Proposed")
     elif case_id == "H04":

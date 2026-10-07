@@ -9,7 +9,16 @@
       "authority": "explicit human approval",
       "path": "docs/adr/0016-repository-topology-and-module-integration-model.md",
       "scope": "federated repository topology and versioned integration boundaries"
+    },
+    {
+      "id": "ADR-0017",
+      "title": "Adversarial Hardening and Qualification Model",
+      "status": "Accepted",
+      "decision_date": "2026-10-07",
+      "authority": "explicit human approval",
+      "path": "docs/adr/0017-adversarial-hardening-and-qualification-model.md",
+      "scope": "foundation adversarial hardening and qualification boundaries"
     }
   ],
-  "other_adr_status": "Proposed"
+  "other_adr_status": "Proposed except ADR-0016 and ADR-0017"
 }

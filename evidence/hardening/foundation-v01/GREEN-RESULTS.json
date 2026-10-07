@@ -25,7 +25,7 @@
       "expected_match": true,
       "fixture_identity": "de5119f31fbe425a94b79d104ce34120bc46ed51b0f16c4da5db6c6b40e9da13",
       "observed": "REJECT",
-      "reason": "adr_0017_proposed: Accepted\nonly_adr_0016_accepted: ['ADR-0016', 'ADR-0017']\nother_adrs_remain_proposed: ['ADR-0017']\nregister_hashes_match: ['docs/adr/0017-adversarial-hardening-and-qualification-model.md']"
+      "reason": "accepted_set_exact: ['ADR-0015', 'ADR-0016', 'ADR-0017']\nother_adrs_remain_proposed: ['ADR-0015']\nregister_hashes_match: ['docs/adr/0015-ai-model-agent-non-authority-and-reproducible-inference.md']"
     },
     {
       "attack_id": "H03",
@@ -36,7 +36,7 @@
       "expected_match": true,
       "fixture_identity": "85ab28c03c27a7a7a1c5c9e2d053ea98e43446a4807d7b652400313d2e3c1028",
       "observed": "REJECT",
-      "reason": "adr_0016_accepted: Proposed\nonly_adr_0016_accepted: []\nregister_hashes_match: ['docs/adr/0016-repository-topology-and-module-integration-model.md']"
+      "reason": "adr_0016_accepted: Proposed\naccepted_set_exact: ['ADR-0017']\nregister_hashes_match: ['docs/adr/0016-repository-topology-and-module-integration-model.md']"
     },
     {
       "attack_id": "H04",
@@ -212,7 +212,7 @@
       "expected_match": true,
       "fixture_identity": "dc467645e5eaf2bdd3591b0be93ae085bbb0b62f8d731d576813e3b21df326a6",
       "observed": "REJECT",
-      "reason": "{\"archive\": \"<WORK>/H19.zip\", \"errors\": [\"parent traversal: package/../escape\"], \"members\": 1, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"15d74e79279dfb9a55586e390af8084ab28c6b37e18127fe5b2dca156c568428\", \"state\": \"FAIL\"}"
+      "reason": "{\"archive\": \"<WORK>/H19.zip\", \"errors\": [\"parent traversal: package/../escape\"], \"members\": 1, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"f809f03848eaea0fea53a7622efdef6c5a09f8d1d44c4cffaeeaee0b9c69ddd4\", \"state\": \"FAIL\"}"
     },
     {
       "attack_id": "H20",
@@ -223,7 +223,7 @@
       "expected_match": true,
       "fixture_identity": "9374789dd10b7f342df0922319d0f73953d5d67dcee328eda27b7ce93b72fce6",
       "observed": "REJECT",
-      "reason": "{\"archive\": \"<WORK>/H20.zip\", \"errors\": [\"absolute member path: /absolute\"], \"members\": 1, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"60df52c9c54a9b52259c036f12d20c691d7853cad85389b878f3555bf14cedd5\", \"state\": \"FAIL\"}"
+      "reason": "{\"archive\": \"<WORK>/H20.zip\", \"errors\": [\"absolute member path: /absolute\"], \"members\": 1, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"a790bdc164cecc42d0786cae0e62933cec8690cac6418d7abfc2a7fb37f8726e\", \"state\": \"FAIL\"}"
     },
     {
       "attack_id": "H21",
@@ -234,7 +234,7 @@
       "expected_match": true,
       "fixture_identity": "76af804897d45f7c08d2c85b85d80cf4ca42c0cab2de9c9ad5403dd864a88377",
       "observed": "REJECT",
-      "reason": "{\"archive\": \"<WORK>/H21.zip\", \"errors\": [\"duplicate member: package/value\"], \"members\": 2, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"bc8bc0f4dbda8df319ac8936425e046f9d4c3c8aaf7169cba39c6dd73254a057\", \"state\": \"FAIL\"}"
+      "reason": "{\"archive\": \"<WORK>/H21.zip\", \"errors\": [\"duplicate member: package/value\"], \"members\": 2, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"3113fd71a21793bf99849c9abf505b4300dc05ff1fbb941e5ed8ed8b7b462a9b\", \"state\": \"FAIL\"}"
     },
     {
       "attack_id": "H22",
@@ -245,7 +245,7 @@
       "expected_match": true,
       "fixture_identity": "76cec195fc038b01ae108bb747fdac4ac14d196cc1e9c35c1fe4d6eea4656ef8",
       "observed": "REJECT",
-      "reason": "{\"archive\": \"<WORK>/H22.zip\", \"errors\": [\"case-fold or Windows path collision: package/README.md <> package/readme.md\"], \"members\": 2, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"9e1d8b1db59ca593eab241daa0d66d71759751c148c5b33fa26e93c5d9df3a73\", \"state\": \"FAIL\"}"
+      "reason": "{\"archive\": \"<WORK>/H22.zip\", \"errors\": [\"case-fold or Windows path collision: package/README.md <> package/readme.md\"], \"members\": 2, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"d691f2a2097644c26ca1b665636d816646b0013b4ce9cc1bbf24d2f8745553cd\", \"state\": \"FAIL\"}"
     },
     {
       "attack_id": "H23",
@@ -267,7 +267,7 @@
       "expected_match": true,
       "fixture_identity": "4c76fb9011ae48c6d941ebe52b58ab693dfbc7bd1da53beb619285031f8bd147",
       "observed": "PASS",
-      "reason": "{\"archive\": \"<WORK>/H24.zip\", \"errors\": [], \"members\": 1, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"624efd0607ab4662cbcfb0a068a2fd13421dcde89b453e8f22b188bea063fc1b\", \"state\": \"PASS\"}"
+      "reason": "{\"archive\": \"<WORK>/H24.zip\", \"errors\": [], \"members\": 1, \"schema\": \"aletheia.evidence-zip-container-safety.v1\", \"scope\": \"container-safety-only-not-scientific-validation\", \"sha256\": \"51ec36033f9cbef1488111ab0f74e07c10316976abc6b05a8bc0d05b71fd7fff\", \"state\": \"PASS\"}"
     },
     {
       "attack_id": "H25",
@@ -289,7 +289,7 @@
       "expected_match": true,
       "fixture_identity": "97d3dddb323f5a32983a038c561dbcd220cc3bcacb3bbc376e00c62ff3f7ad8e",
       "observed": "REJECT",
-      "reason": "core_adr_count: 19\ntotal_adr_count: 27\ncore_ids_complete: ['0000', '0001', '0002', '0003', '0004', '0005', '0006', '0007', '0008', '0009', '0010', '0011', '0012', '0013', '0014', '0015', '0016', '0017', '0018']\nadr_ids_unique: ['ADR-0000', 'ADR-0001', 'ADR-0002', 'ADR-0003', 'ADR-0004', 'ADR-0005', 'ADR-0006', 'ADR-0007', 'ADR-0008', 'ADR-0009', 'ADR-0010', 'ADR-0011', 'ADR-0012', 'ADR-0013', 'ADR-0014', 'ADR-0015', 'ADR-0016', 'ADR-0017', 'ADR-0017', 'ADR-KR-0001', 'ADR-KR-0002', 'ADR-KR-0003', 'ADR-KR-0004', 'ADR-KR-0005', 'ADR-KR-0006', 'ADR-KR-0007', 'ADR-KR-0008']\nregister_hashes_match: ['docs/adr/0018-duplicate-identifier.md']"
+      "reason": "core_adr_count: 19\ntotal_adr_count: 27\ncore_ids_complete: ['0000', '0001', '0002', '0003', '0004', '0005', '0006', '0007', '0008', '0009', '0010', '0011', '0012', '0013', '0014', '0015', '0016', '0017', '0018']\nadr_ids_unique: ['ADR-0000', 'ADR-0001', 'ADR-0002', 'ADR-0003', 'ADR-0004', 'ADR-0005', 'ADR-0006', 'ADR-0007', 'ADR-0008', 'ADR-0009', 'ADR-0010', 'ADR-0011', 'ADR-0012', 'ADR-0013', 'ADR-0014', 'ADR-0015', 'ADR-0016', 'ADR-0017', 'ADR-0017', 'ADR-KR-0001', 'ADR-KR-0002', 'ADR-KR-0003', 'ADR-KR-0004', 'ADR-KR-0005', 'ADR-KR-0006', 'ADR-KR-0007', 'ADR-KR-0008']\nadr_0017_accepted: Proposed\naccepted_set_exact: ['ADR-0016']\nregister_hashes_match: ['docs/adr/0018-duplicate-identifier.md']"
     }
   ],
   "schema": "aletheia.foundation-hardening-results.v1",
