@@ -1,0 +1,39 @@
+{
+  "schema": "aletheia.foundation-baseline.v1",
+  "captured_at_utc": "2026-10-07T10:47:49Z",
+  "workspace": {
+    "physical_parent": "/home/usuario/Desenvolvimento/bonushora",
+    "parent_type": "directory",
+    "target_initial_state": "ABSENT",
+    "applicable_agents_files": []
+  },
+  "environment": {
+    "hostname": "usuario-System-Product-Name",
+    "kernel": "Linux 6.8.0-65-generic x86_64 GNU/Linux",
+    "git": "git version 2.34.1",
+    "python": "Python 3.10.12",
+    "unzip": "UnZip 6.00 of 20 April 2009, by Debian"
+  },
+  "runner": {
+    "path": "/home/usuario/Downloads/Runner_Aletheia_ADR_Foundation_Integration_v02_LONG.md",
+    "sha256": "98d1ed9c23b37c6868847b09f4f9037606e6379560b666bcc1703f7e7c0f9800",
+    "lines": 623,
+    "bytes": 16478
+  },
+  "foundation_package": {
+    "path": "/home/usuario/Downloads/aletheia-biomedical-discovery-adr-foundation-v01.zip",
+    "type": "regular_file",
+    "symlink": false,
+    "size": 42956,
+    "sha256": "e4dd94ec90c0077df82b9fd833ef2810b663d828a59b651f20b32c7659f0fce9",
+    "member_count": 49,
+    "expected_root": "aletheia-biomedical-discovery-adr-foundation-v01/",
+    "crc_test": "PASS",
+    "absolute_names": [],
+    "parent_traversal_names": [],
+    "duplicate_names": [],
+    "outside_root_names": [],
+    "symlink_members": [],
+    "special_members": []
+  }
+}

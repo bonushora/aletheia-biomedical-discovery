@@ -1,0 +1,31 @@
+{
+  "schema": "aletheia.kidney-preservation.v1",
+  "protected_repository": "/home/usuario/Desenvolvimento/bonushora/kidney-regeneration-research",
+  "mode": "READ_ONLY",
+  "baseline": {
+    "physical_path": "/home/usuario/Desenvolvimento/bonushora/kidney-regeneration-research",
+    "branch": "main",
+    "head": "30ecd32f4639949755a0062670389913129321b4",
+    "status_short": [
+      " M tests/test_replication_bridge.py"
+    ],
+    "worktree_diff_sha256": "90c0727421362e4a9da39c92a95dce7f1f42814173c4f90301837c89df10a85c",
+    "cached_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked_file_count": 74,
+    "remote": "https://github.com/bonushora/bonushora-kidney-regeneration-research.git"
+  },
+  "precommit_verification": {
+    "captured_at_utc": "2026-10-07T10:52:17Z",
+    "branch": "main",
+    "head": "30ecd32f4639949755a0062670389913129321b4",
+    "status_short": [
+      " M tests/test_replication_bridge.py"
+    ],
+    "worktree_diff_sha256": "90c0727421362e4a9da39c92a95dce7f1f42814173c4f90301837c89df10a85c",
+    "cached_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked_file_count": 74,
+    "remote": "https://github.com/bonushora/bonushora-kidney-regeneration-research.git",
+    "matches_baseline": true
+  },
+  "mission_writes_performed": false
+}

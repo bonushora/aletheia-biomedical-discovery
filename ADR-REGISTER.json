@@ -1,0 +1,181 @@
+{
+  "schema": "aletheia.adr-register.v1",
+  "state": "FOUNDATION_WITH_ACCEPTED_TOPOLOGY",
+  "records": [
+    {
+      "group": "platform",
+      "path": "docs/adr/0000-adr-governance-and-lifecycle.md",
+      "title": "ADR-0000 — ADR Governance and Lifecycle",
+      "status": "Proposed",
+      "sha256": "d21539013bb629975fd73b9c5e1334ea5b7676d6321cabe58a4ea592aac5b044"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0001-aletheia-evidence-governed-biomedical-discovery.md",
+      "title": "ADR-0001 — Aletheia as an Evidence-Governed Biomedical Discovery Platform",
+      "status": "Proposed",
+      "sha256": "42dccedc8065b96d508b830ad96fd461d87279c91d1428d48ebc09f60e16178a"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0002-platform-core-and-research-control-planes.md",
+      "title": "ADR-0002 — Platform Core and Disease-Specific Research Control Planes",
+      "status": "Proposed",
+      "sha256": "83e648e98b77648ea078df02e226c454b2e572a6fbdfaf8b5ad54459474e4076"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0003-human-scientific-authority-boundary.md",
+      "title": "ADR-0003 — Human Scientific Authority Boundary",
+      "status": "Proposed",
+      "sha256": "7496aad97331f44437d5e9d6c7089b083216a3fcba1f06368b29c513ac48ec68"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0004-evidence-before-scientific-claim.md",
+      "title": "ADR-0004 — Evidence Before Scientific Claim",
+      "status": "Proposed",
+      "sha256": "5dd658f5ba8a31478a7c476a8a37f16f75be35f3ba2bc45dc2bb68589eb3409f"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0005-immutable-provenance-and-reproducibility-chain.md",
+      "title": "ADR-0005 — Immutable Provenance and Reproducibility Chain",
+      "status": "Proposed",
+      "sha256": "8997e21ba161a73ed381dafa545192fd35609fb8cc6b5c7b0bdb44a745ecfe96"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0006-scientific-state-machine.md",
+      "title": "ADR-0006 — Scientific State Machine",
+      "status": "Proposed",
+      "sha256": "1d04b71914c042dc78c7e72e764afa92b118272d22161b0bbcfe487e89399b71"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0007-separation-observation-interpretation-intervention.md",
+      "title": "ADR-0007 — Separation of Observation, Interpretation, and Intervention",
+      "status": "Proposed",
+      "sha256": "c42521e2bca4f87e66f97896a514b1c30f80ec021b6b1cc0eea70eb7724fb5b6"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0008-no-silent-data-mutation.md",
+      "title": "ADR-0008 — No Silent Data Mutation",
+      "status": "Proposed",
+      "sha256": "b7bc0efe4284f00aea25b79566bf3433496dc491687651e133e43bfe7e99d7e1"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0009-hypothesis-generation-is-not-validation.md",
+      "title": "ADR-0009 — Hypothesis Generation Is Not Validation",
+      "status": "Proposed",
+      "sha256": "513343917442de1d8003c6ac8c85700d6d03593309053149a0f3806ece4467d2"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0010-cross-domain-evidence-graph.md",
+      "title": "ADR-0010 — Cross-Domain Evidence Graph",
+      "status": "Proposed",
+      "sha256": "930239c32994c4f48aa5ef9f4c8923e1151cb29336253de7693f94fb57713bb6"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0011-external-literature-and-dataset-trust-model.md",
+      "title": "ADR-0011 — External Literature and Dataset Trust Model",
+      "status": "Proposed",
+      "sha256": "5a8363f1216e0899a6c08da3a4ceb2aa75c714515519cee6b2e7b051f018f55f"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0012-reproducible-scientific-packaging.md",
+      "title": "ADR-0012 — Reproducible Scientific Packaging and Review Artifacts",
+      "status": "Proposed",
+      "sha256": "187dc70ad17351cd50214b7771bde48dec721af807bca28814133b43dc23ce04"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0013-research-only-boundary-and-clinical-non-authority.md",
+      "title": "ADR-0013 — Research-Only Boundary and Clinical Non-Authority",
+      "status": "Proposed",
+      "sha256": "0b6bd2ad400db99133a244586fb12daaa2f727672f996d8010344aab1804e18f"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0014-sensitive-human-data-consent-privacy-controlled-access.md",
+      "title": "ADR-0014 — Sensitive Human Data, Consent, Privacy, and Controlled Access",
+      "status": "Proposed",
+      "sha256": "67bef57daa9a00bce04df11807af9447aa11494699162a0595df3a8316eb8f6c"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0015-ai-model-agent-non-authority-and-reproducible-inference.md",
+      "title": "ADR-0015 — AI Model and Agent Non-Authority with Reproducible Inference",
+      "status": "Proposed",
+      "sha256": "32e9e32488f8f262e016d7296892ec79d726a0c3083bcde8ffd694be9f6e2cfb"
+    },
+    {
+      "group": "platform",
+      "path": "docs/adr/0016-repository-topology-and-module-integration-model.md",
+      "title": "ADR-0016 — Repository Topology and Module Integration Model",
+      "status": "Accepted",
+      "sha256": "1aab1f4fc8166d4d83b051566dbbceca704ad372000d3297cf854b17932de228"
+    },
+    {
+      "group": "kidney",
+      "path": "modules/kidney/docs/adr/0001-kidney-control-plane-scope.md",
+      "title": "ADR-KR-0001 — Kidney Regeneration Research Control Plane Scope",
+      "status": "Proposed",
+      "sha256": "28225dfa1fdb7db07aec9f967fd987ceacebaf012ef2f81eddc704e240ccdf24"
+    },
+    {
+      "group": "kidney",
+      "path": "modules/kidney/docs/adr/0002-qualified-kidney-dataset-intake.md",
+      "title": "ADR-KR-0002 — Qualified Kidney Dataset Intake",
+      "status": "Proposed",
+      "sha256": "ff90a256202c4187ae5ee52b0d0ceea1672c5f7d6af1ed21f8b6d91be1c823ac"
+    },
+    {
+      "group": "kidney",
+      "path": "modules/kidney/docs/adr/0003-single-cell-qc-human-reviewed-policy.md",
+      "title": "ADR-KR-0003 — Single-Cell QC as a Human-Reviewed Scientific Policy",
+      "status": "Proposed",
+      "sha256": "70b8b6e207336fe2fee8e873630a8a01fbb2b278479ce82a563e8de35cdf04a5"
+    },
+    {
+      "group": "kidney",
+      "path": "modules/kidney/docs/adr/0004-cell-identity-annotation-evidence-model.md",
+      "title": "ADR-KR-0004 — Cell Identity and Annotation Evidence Model",
+      "status": "Proposed",
+      "sha256": "f5d282ab9e4f80d09efec5612bd101ad54d868ee2c86a8c7777e8084dc3cab35"
+    },
+    {
+      "group": "kidney",
+      "path": "modules/kidney/docs/adr/0005-organoid-developmental-reference-model.md",
+      "title": "ADR-KR-0005 — Kidney Organoid Developmental Reference Model",
+      "status": "Proposed",
+      "sha256": "3eb0c3b40eff0e846bed85e81b4df4e57ffded864e62b5ad4840a89c478ae4a7"
+    },
+    {
+      "group": "kidney",
+      "path": "modules/kidney/docs/adr/0006-cross-dataset-replication-before-candidate-promotion.md",
+      "title": "ADR-KR-0006 — Cross-Dataset Replication Before Candidate Promotion",
+      "status": "Proposed",
+      "sha256": "9204a1d58e0685cc9d40c446d4e0c84c66256561ad746e6d79662ab31d00a995"
+    },
+    {
+      "group": "kidney",
+      "path": "modules/kidney/docs/adr/0007-regenerative-candidate-evidence-ladder.md",
+      "title": "ADR-KR-0007 — Regenerative Candidate Evidence Ladder",
+      "status": "Proposed",
+      "sha256": "9a60c0070438a08dd285bd8e6279c6f0cfce6e7fcad44f5b5d5ac3ed5c7c7db9"
+    },
+    {
+      "group": "kidney",
+      "path": "modules/kidney/docs/adr/0008-experimental-hypothesis-handoff-boundary.md",
+      "title": "ADR-KR-0008 — Experimental Hypothesis Handoff Boundary",
+      "status": "Proposed",
+      "sha256": "f9224bfb14beb90a5c3ee4ae2c737cec2b58d3a79a0bd432740646c0ecddcd26"
+    }
+  ]
+}

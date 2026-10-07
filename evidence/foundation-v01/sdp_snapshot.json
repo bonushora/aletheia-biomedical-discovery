@@ -1,0 +1,28 @@
+{
+  "schema": "bh-sdp.snapshot.v1",
+  "captured_at_utc": "2026-10-07T10:52:17Z",
+  "state": "PRE_COMMIT_QUALIFIED",
+  "repository": {
+    "physical_path": "/home/usuario/Desenvolvimento/bonushora/aletheia-biomedical-discovery",
+    "branch": "main",
+    "head": "NOT_ESTABLISHED_PRE_COMMIT",
+    "remote": "NOT_ESTABLISHED",
+    "remote_operations_performed": false
+  },
+  "foundation": {
+    "core_adr_count": 17,
+    "kidney_adr_count": 8,
+    "total_adr_count": 25,
+    "accepted_adrs": [
+      "ADR-0016"
+    ],
+    "validator_state": "PASS",
+    "validator_check_count": 119
+  },
+  "boundaries": {
+    "kidney_repository_mutated": false,
+    "biomedical_data_copied": false,
+    "scientific_or_clinical_validation_claimed": false
+  },
+  "postcommit_identity": "RECORDED_EXTERNALLY_BY_POSTCONDITION"
+}

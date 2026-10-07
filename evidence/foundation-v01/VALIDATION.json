@@ -1,0 +1,603 @@
+{
+  "adr_count": 25,
+  "checks": [
+    {
+      "check": "core_adr_count",
+      "detail": "17",
+      "pass": true
+    },
+    {
+      "check": "kidney_adr_count",
+      "detail": "8",
+      "pass": true
+    },
+    {
+      "check": "total_adr_count",
+      "detail": "25",
+      "pass": true
+    },
+    {
+      "check": "core_ids_complete",
+      "detail": "['0000', '0001', '0002', '0003', '0004', '0005', '0006', '0007', '0008', '0009', '0010', '0011', '0012', '0013', '0014', '0015', '0016']",
+      "pass": true
+    },
+    {
+      "check": "kidney_ids_complete",
+      "detail": "['0001', '0002', '0003', '0004', '0005', '0006', '0007', '0008']",
+      "pass": true
+    },
+    {
+      "check": "title:0000-adr-governance-and-lifecycle.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0000-adr-governance-and-lifecycle.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0000-adr-governance-and-lifecycle.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0001-aletheia-evidence-governed-biomedical-discovery.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0001-aletheia-evidence-governed-biomedical-discovery.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0001-aletheia-evidence-governed-biomedical-discovery.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0002-platform-core-and-research-control-planes.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0002-platform-core-and-research-control-planes.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0002-platform-core-and-research-control-planes.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0003-human-scientific-authority-boundary.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0003-human-scientific-authority-boundary.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0003-human-scientific-authority-boundary.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0004-evidence-before-scientific-claim.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0004-evidence-before-scientific-claim.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0004-evidence-before-scientific-claim.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0005-immutable-provenance-and-reproducibility-chain.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0005-immutable-provenance-and-reproducibility-chain.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0005-immutable-provenance-and-reproducibility-chain.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0006-scientific-state-machine.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0006-scientific-state-machine.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0006-scientific-state-machine.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0007-separation-observation-interpretation-intervention.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0007-separation-observation-interpretation-intervention.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0007-separation-observation-interpretation-intervention.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0008-no-silent-data-mutation.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0008-no-silent-data-mutation.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0008-no-silent-data-mutation.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0009-hypothesis-generation-is-not-validation.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0009-hypothesis-generation-is-not-validation.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0009-hypothesis-generation-is-not-validation.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0010-cross-domain-evidence-graph.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0010-cross-domain-evidence-graph.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0010-cross-domain-evidence-graph.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0011-external-literature-and-dataset-trust-model.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0011-external-literature-and-dataset-trust-model.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0011-external-literature-and-dataset-trust-model.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0012-reproducible-scientific-packaging.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0012-reproducible-scientific-packaging.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0012-reproducible-scientific-packaging.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0013-research-only-boundary-and-clinical-non-authority.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0013-research-only-boundary-and-clinical-non-authority.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0013-research-only-boundary-and-clinical-non-authority.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0014-sensitive-human-data-consent-privacy-controlled-access.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0014-sensitive-human-data-consent-privacy-controlled-access.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0014-sensitive-human-data-consent-privacy-controlled-access.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0015-ai-model-agent-non-authority-and-reproducible-inference.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0015-ai-model-agent-non-authority-and-reproducible-inference.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0015-ai-model-agent-non-authority-and-reproducible-inference.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0016-repository-topology-and-module-integration-model.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0016-repository-topology-and-module-integration-model.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0016-repository-topology-and-module-integration-model.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0001-kidney-control-plane-scope.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0001-kidney-control-plane-scope.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0001-kidney-control-plane-scope.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0002-qualified-kidney-dataset-intake.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0002-qualified-kidney-dataset-intake.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0002-qualified-kidney-dataset-intake.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0003-single-cell-qc-human-reviewed-policy.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0003-single-cell-qc-human-reviewed-policy.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0003-single-cell-qc-human-reviewed-policy.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0004-cell-identity-annotation-evidence-model.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0004-cell-identity-annotation-evidence-model.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0004-cell-identity-annotation-evidence-model.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0005-organoid-developmental-reference-model.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0005-organoid-developmental-reference-model.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0005-organoid-developmental-reference-model.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0006-cross-dataset-replication-before-candidate-promotion.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0006-cross-dataset-replication-before-candidate-promotion.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0006-cross-dataset-replication-before-candidate-promotion.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0007-regenerative-candidate-evidence-ladder.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0007-regenerative-candidate-evidence-ladder.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0007-regenerative-candidate-evidence-ladder.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "title:0008-experimental-hypothesis-handoff-boundary.md",
+      "detail": "ADR identifier in title",
+      "pass": true
+    },
+    {
+      "check": "decision:0008-experimental-hypothesis-handoff-boundary.md",
+      "detail": "Decision section",
+      "pass": true
+    },
+    {
+      "check": "status:0008-experimental-hypothesis-handoff-boundary.md",
+      "detail": "status metadata",
+      "pass": true
+    },
+    {
+      "check": "adr_ids_unique",
+      "detail": "['ADR-0000', 'ADR-0001', 'ADR-0002', 'ADR-0003', 'ADR-0004', 'ADR-0005', 'ADR-0006', 'ADR-0007', 'ADR-0008', 'ADR-0009', 'ADR-0010', 'ADR-0011', 'ADR-0012', 'ADR-0013', 'ADR-0014', 'ADR-0015', 'ADR-0016', 'ADR-KR-0001', 'ADR-KR-0002', 'ADR-KR-0003', 'ADR-KR-0004', 'ADR-KR-0005', 'ADR-KR-0006', 'ADR-KR-0007', 'ADR-KR-0008']",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_accepted",
+      "detail": "Accepted",
+      "pass": true
+    },
+    {
+      "check": "only_adr_0016_accepted",
+      "detail": "['ADR-0016']",
+      "pass": true
+    },
+    {
+      "check": "other_adrs_remain_proposed",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:own_repository",
+      "detail": "has its own repository",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:independent_control_planes",
+      "detail": "control planes remain in independent repositories",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:versioned_contracts",
+      "detail": "explicitly versioned contracts",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:versioned_schemas",
+      "detail": "explicitly versioned schemas",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:versioned_evidence_packages",
+      "detail": "evidence packages are versioned",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:no_mutable_main",
+      "detail": "depend implicitly on mutable `main`",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:no_cross_repo_mutation",
+      "detail": "may not mutate a federated repository automatically",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:compatibility_matrix",
+      "detail": "compatibility matrix is required",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:explicit_migration",
+      "detail": "explicit migration mission",
+      "pass": true
+    },
+    {
+      "check": "adr_0016_safeguard:no_primary_submodules",
+      "detail": "git submodules are not the primary integration mechanism",
+      "pass": true
+    },
+    {
+      "check": "required:ARCHITECTURE.md",
+      "detail": "ARCHITECTURE.md",
+      "pass": true
+    },
+    {
+      "check": "required:GOVERNANCE.md",
+      "detail": "GOVERNANCE.md",
+      "pass": true
+    },
+    {
+      "check": "required:README.md",
+      "detail": "README.md",
+      "pass": true
+    },
+    {
+      "check": "required:contracts/README.md",
+      "detail": "contracts/README.md",
+      "pass": true
+    },
+    {
+      "check": "required:contracts/VERSIONING.md",
+      "detail": "contracts/VERSIONING.md",
+      "pass": true
+    },
+    {
+      "check": "required:control-planes/README.md",
+      "detail": "control-planes/README.md",
+      "pass": true
+    },
+    {
+      "check": "required:docs/adr/README.md",
+      "detail": "docs/adr/README.md",
+      "pass": true
+    },
+    {
+      "check": "required:docs/architecture/COMPATIBILITY-MODEL.md",
+      "detail": "docs/architecture/COMPATIBILITY-MODEL.md",
+      "pass": true
+    },
+    {
+      "check": "required:docs/architecture/FEDERATION-MODEL.md",
+      "detail": "docs/architecture/FEDERATION-MODEL.md",
+      "pass": true
+    },
+    {
+      "check": "required:evidence-packages/README.md",
+      "detail": "evidence-packages/README.md",
+      "pass": true
+    },
+    {
+      "check": "required:schemas/README.md",
+      "detail": "schemas/README.md",
+      "pass": true
+    },
+    {
+      "check": "required:scripts/validate_foundation.py",
+      "detail": "scripts/validate_foundation.py",
+      "pass": true
+    },
+    {
+      "check": "no_unexpected_symlinks",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "no_expression_data",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "no_embedded_kidney_repository",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "kidney_module_docs_only",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "utf8_valid",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "no_merge_markers",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "no_absolute_local_links",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "local_links_resolve",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "no_unsupported_claims",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "register_record_count",
+      "detail": "25",
+      "pass": true
+    },
+    {
+      "check": "register_hashes_match",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "register_only_adr_0016_accepted",
+      "detail": "['docs/adr/0016-repository-topology-and-module-integration-model.md']",
+      "pass": true
+    },
+    {
+      "check": "manifest_deterministic",
+      "detail": "two independent renders",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "schema": "aletheia.foundation-validation.v1",
+  "state": "PASS"
+}

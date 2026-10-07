@@ -1,0 +1,255 @@
+{
+  "algorithm": "sha256",
+  "exclusions": [
+    ".git/",
+    "evidence/foundation-v01/MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "fa5b2d4433b835933b22140e01833a4972a0ee8532d76951286e3dd071994af0",
+      "size": 33
+    },
+    {
+      "path": "ADR-REGISTER.json",
+      "sha256": "aa2da2a0e9e6e87897a18899db9df5024f661f52e966c08e86d666bba0c000fd",
+      "size": 7759
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "b7cbef050fddfde626ee32ddf43d65381137a637afefb13b47b774adaf32aec1",
+      "size": 966
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "c55e2a4ce983ace076ab0c547cc75a871563a8e101bde8acc4ca89f899519148",
+      "size": 940
+    },
+    {
+      "path": "INTEGRATION-BOUNDARY.md",
+      "sha256": "8e7bcbd233b4593d5ca540643c5373bddf2e1192de48fb6065b7a727fc5ff2a7",
+      "size": 797
+    },
+    {
+      "path": "README.md",
+      "sha256": "1167f0ff3edf0255a7ba0a66b8fd529af540595627c92cb27299c2a95ef5264d",
+      "size": 1525
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "82e9ab0b6cd602507d1b5e9b0811d82a9b29ba752cc8db15957c2f7c67e0f4d4",
+      "size": 1127
+    },
+    {
+      "path": "contracts/README.md",
+      "sha256": "e3298532b733c14b01e4dce061c0b1284bbca2522d4164b80f97d6d0bcee422e",
+      "size": 604
+    },
+    {
+      "path": "contracts/VERSIONING.md",
+      "sha256": "208f79c9f5b52d466d69a6440610e981e7e3bf23d46bc73d98c323c82cb641e4",
+      "size": 519
+    },
+    {
+      "path": "control-planes/README.md",
+      "sha256": "a9b7711b7917f2784474ba8e1bc2a1fde73d2793d05e54aaa1c9885003bdebff",
+      "size": 522
+    },
+    {
+      "path": "docs/adr/0000-adr-governance-and-lifecycle.md",
+      "sha256": "d21539013bb629975fd73b9c5e1334ea5b7676d6321cabe58a4ea592aac5b044",
+      "size": 1548
+    },
+    {
+      "path": "docs/adr/0001-aletheia-evidence-governed-biomedical-discovery.md",
+      "sha256": "42dccedc8065b96d508b830ad96fd461d87279c91d1428d48ebc09f60e16178a",
+      "size": 1538
+    },
+    {
+      "path": "docs/adr/0002-platform-core-and-research-control-planes.md",
+      "sha256": "83e648e98b77648ea078df02e226c454b2e572a6fbdfaf8b5ad54459474e4076",
+      "size": 1191
+    },
+    {
+      "path": "docs/adr/0003-human-scientific-authority-boundary.md",
+      "sha256": "7496aad97331f44437d5e9d6c7089b083216a3fcba1f06368b29c513ac48ec68",
+      "size": 1274
+    },
+    {
+      "path": "docs/adr/0004-evidence-before-scientific-claim.md",
+      "sha256": "5dd658f5ba8a31478a7c476a8a37f16f75be35f3ba2bc45dc2bb68589eb3409f",
+      "size": 1080
+    },
+    {
+      "path": "docs/adr/0005-immutable-provenance-and-reproducibility-chain.md",
+      "sha256": "8997e21ba161a73ed381dafa545192fd35609fb8cc6b5c7b0bdb44a745ecfe96",
+      "size": 1164
+    },
+    {
+      "path": "docs/adr/0006-scientific-state-machine.md",
+      "sha256": "1d04b71914c042dc78c7e72e764afa92b118272d22161b0bbcfe487e89399b71",
+      "size": 1006
+    },
+    {
+      "path": "docs/adr/0007-separation-observation-interpretation-intervention.md",
+      "sha256": "c42521e2bca4f87e66f97896a514b1c30f80ec021b6b1cc0eea70eb7724fb5b6",
+      "size": 964
+    },
+    {
+      "path": "docs/adr/0008-no-silent-data-mutation.md",
+      "sha256": "b7bc0efe4284f00aea25b79566bf3433496dc491687651e133e43bfe7e99d7e1",
+      "size": 886
+    },
+    {
+      "path": "docs/adr/0009-hypothesis-generation-is-not-validation.md",
+      "sha256": "513343917442de1d8003c6ac8c85700d6d03593309053149a0f3806ece4467d2",
+      "size": 863
+    },
+    {
+      "path": "docs/adr/0010-cross-domain-evidence-graph.md",
+      "sha256": "930239c32994c4f48aa5ef9f4c8923e1151cb29336253de7693f94fb57713bb6",
+      "size": 942
+    },
+    {
+      "path": "docs/adr/0011-external-literature-and-dataset-trust-model.md",
+      "sha256": "5a8363f1216e0899a6c08da3a4ceb2aa75c714515519cee6b2e7b051f018f55f",
+      "size": 1095
+    },
+    {
+      "path": "docs/adr/0012-reproducible-scientific-packaging.md",
+      "sha256": "187dc70ad17351cd50214b7771bde48dec721af807bca28814133b43dc23ce04",
+      "size": 1008
+    },
+    {
+      "path": "docs/adr/0013-research-only-boundary-and-clinical-non-authority.md",
+      "sha256": "0b6bd2ad400db99133a244586fb12daaa2f727672f996d8010344aab1804e18f",
+      "size": 952
+    },
+    {
+      "path": "docs/adr/0014-sensitive-human-data-consent-privacy-controlled-access.md",
+      "sha256": "67bef57daa9a00bce04df11807af9447aa11494699162a0595df3a8316eb8f6c",
+      "size": 1062
+    },
+    {
+      "path": "docs/adr/0015-ai-model-agent-non-authority-and-reproducible-inference.md",
+      "sha256": "32e9e32488f8f262e016d7296892ec79d726a0c3083bcde8ffd694be9f6e2cfb",
+      "size": 1078
+    },
+    {
+      "path": "docs/adr/0016-repository-topology-and-module-integration-model.md",
+      "sha256": "1aab1f4fc8166d4d83b051566dbbceca704ad372000d3297cf854b17932de228",
+      "size": 2522
+    },
+    {
+      "path": "docs/adr/README.md",
+      "sha256": "d3e7584099082f5076b392df8f11a29b8e66480b77f539e0082fd72d5db24487",
+      "size": 1649
+    },
+    {
+      "path": "docs/architecture/COMPATIBILITY-MODEL.md",
+      "sha256": "76869357b3872b1ccb289060951ac64b5b49f89804331f6e9254e3c59f98562a",
+      "size": 724
+    },
+    {
+      "path": "docs/architecture/FEDERATION-MODEL.md",
+      "sha256": "51668bc7b34dd7058f0735355399bfe120cf2b4e5fa2a3716cffae33526a662a",
+      "size": 725
+    },
+    {
+      "path": "docs/architecture/PLATFORM-TOPOLOGY.md",
+      "sha256": "27daeae230f2818bd7a50f830ed978df9d90aa57131fd0b63e18381c2649a2a8",
+      "size": 731
+    },
+    {
+      "path": "docs/architecture/SCIENTIFIC-STATE-MACHINE.md",
+      "sha256": "5086815b9e043f1f7c25a74e16ebb0dd717816273dff5793ffebd9340c16770d",
+      "size": 785
+    },
+    {
+      "path": "evidence-packages/README.md",
+      "sha256": "bf992f1c6605039bdc2174ff1e6b3bdfac55ce14c0373ae6d8ce32bf3441c2b1",
+      "size": 476
+    },
+    {
+      "path": "evidence/foundation-v01/BASELINE.json",
+      "sha256": "4895537294736bb12e9bad424fc58d4e762ae5fabb7d3d748ac2b02d679710b2",
+      "size": 1332
+    },
+    {
+      "path": "evidence/foundation-v01/DECISIONS.json",
+      "sha256": "0faf264a745dad350f992d3168d21eea0a8355b05b844dfc7f50ca4f6a5a8a0b",
+      "size": 488
+    },
+    {
+      "path": "evidence/foundation-v01/KIDNEY-PRESERVATION.json",
+      "sha256": "3d403a8a5864cdc3f0da94ba16fde3ff39f588ce2e82040931c6eedead96e116",
+      "size": 1352
+    },
+    {
+      "path": "evidence/foundation-v01/VALIDATION.json",
+      "sha256": "0fc1d360ad9c7608a478a568fae4a0ae5c03269d3cc669eb7daa99068dc82bb3",
+      "size": 16497
+    },
+    {
+      "path": "evidence/foundation-v01/sdp_snapshot.json",
+      "sha256": "533a3ebf886b27b13b8256bb5df7c265a1571e373c443198bd65f52ef5239d36",
+      "size": 806
+    },
+    {
+      "path": "modules/kidney/docs/adr/0001-kidney-control-plane-scope.md",
+      "sha256": "28225dfa1fdb7db07aec9f967fd987ceacebaf012ef2f81eddc704e240ccdf24",
+      "size": 615
+    },
+    {
+      "path": "modules/kidney/docs/adr/0002-qualified-kidney-dataset-intake.md",
+      "sha256": "ff90a256202c4187ae5ee52b0d0ceea1672c5f7d6af1ed21f8b6d91be1c823ac",
+      "size": 543
+    },
+    {
+      "path": "modules/kidney/docs/adr/0003-single-cell-qc-human-reviewed-policy.md",
+      "sha256": "70b8b6e207336fe2fee8e873630a8a01fbb2b278479ce82a563e8de35cdf04a5",
+      "size": 988
+    },
+    {
+      "path": "modules/kidney/docs/adr/0004-cell-identity-annotation-evidence-model.md",
+      "sha256": "f5d282ab9e4f80d09efec5612bd101ad54d868ee2c86a8c7777e8084dc3cab35",
+      "size": 626
+    },
+    {
+      "path": "modules/kidney/docs/adr/0005-organoid-developmental-reference-model.md",
+      "sha256": "3eb0c3b40eff0e846bed85e81b4df4e57ffded864e62b5ad4840a89c478ae4a7",
+      "size": 546
+    },
+    {
+      "path": "modules/kidney/docs/adr/0006-cross-dataset-replication-before-candidate-promotion.md",
+      "sha256": "9204a1d58e0685cc9d40c446d4e0c84c66256561ad746e6d79662ab31d00a995",
+      "size": 521
+    },
+    {
+      "path": "modules/kidney/docs/adr/0007-regenerative-candidate-evidence-ladder.md",
+      "sha256": "9a60c0070438a08dd285bd8e6279c6f0cfce6e7fcad44f5b5d5ac3ed5c7c7db9",
+      "size": 639
+    },
+    {
+      "path": "modules/kidney/docs/adr/0008-experimental-hypothesis-handoff-boundary.md",
+      "sha256": "f9224bfb14beb90a5c3ee4ae2c737cec2b58d3a79a0bd432740646c0ecddcd26",
+      "size": 702
+    },
+    {
+      "path": "modules/kidney/docs/adr/README.md",
+      "sha256": "7b265dcd13c86bb6f46492022f4c7b1bef9e812f133739f7d4200828f43f6879",
+      "size": 749
+    },
+    {
+      "path": "schemas/README.md",
+      "sha256": "f61767d120019fa426ff2a3ce1bfff56cc2c589c62194e54d7b948efc848e9fe",
+      "size": 332
+    },
+    {
+      "path": "scripts/validate_foundation.py",
+      "sha256": "1443cd3154595596997d9bbbd5dba6d79f3b79c595e3fd63cd0b47350e1766f7",
+      "size": 12178
+    }
+  ],
+  "schema": "aletheia.foundation-manifest.v1"
+}

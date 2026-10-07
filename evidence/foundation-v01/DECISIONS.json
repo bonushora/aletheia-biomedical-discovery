@@ -1,0 +1,15 @@
+{
+  "schema": "aletheia.foundation-decisions.v1",
+  "decisions": [
+    {
+      "id": "ADR-0016",
+      "title": "Repository Topology and Module Integration Model",
+      "status": "Accepted",
+      "decision_date": "2026-10-07",
+      "authority": "explicit human approval",
+      "path": "docs/adr/0016-repository-topology-and-module-integration-model.md",
+      "scope": "federated repository topology and versioned integration boundaries"
+    }
+  ],
+  "other_adr_status": "Proposed"
+}
