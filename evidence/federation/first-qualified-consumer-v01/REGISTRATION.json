@@ -1,0 +1,23 @@
+{
+  "schema": "aletheia.first-qualified-consumer-registration.v1",
+  "contract": "aletheia.research-control-plane-descriptor",
+  "contract_version": "0.1.0",
+  "schema_version": "0.1.0",
+  "aletheia_contract_implementation_sha": "01b275e5cc8d96f1c03540b24b581a2ae820f264",
+  "consumer_id": "kidney-regeneration-research",
+  "consumer_subject_sha": "30ecd32f4639949755a0062670389913129321b4",
+  "consumer_qualification_sha": "67c2f5699ce004d6e42eaf4352f37260b560c618",
+  "descriptor_sha256": "5f2eab8334fef6c7c227ed49904caa0dcf4d91b568e14f5f4e7ef1b29fcf64db",
+  "compatibility_lock_sha256": "3d6acb1a4ef9b03a1692062802e4164cc16a065d59b8c73666796a2faf0d59c0",
+  "status": "QUALIFIED_LOCAL",
+  "qualification_state": "GREEN_KIDNEY_FIRST_RCP_CONSUMER",
+  "qualification_scope": "LOCAL",
+  "published": false,
+  "remote_publication": "NOT_PERFORMED",
+  "scientific_validation": "NOT_EXECUTED",
+  "clinical_validation": "NOT_EXECUTED",
+  "therapeutic_efficacy": "NOT_CLAIMED",
+  "kidney_branch_merged": false,
+  "mutable_main_compatibility": "NOT_CLAIMED",
+  "registration_commit": "RECORDED_IN_EXTERNAL_POSTCONDITION_AFTER_COMMIT"
+}

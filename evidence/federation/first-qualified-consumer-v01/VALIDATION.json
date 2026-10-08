@@ -1,0 +1,24 @@
+{
+  "schema": "aletheia.first-qualified-consumer-validation.v1",
+  "captured_at_utc": "2026-10-08T03:13:14Z",
+  "consumer_registry_validator": "PASS",
+  "consumer_registry_tests": {
+    "tests_run": 29,
+    "failures": 0,
+    "errors": 0,
+    "state": "PASS"
+  },
+  "contract_test_discovery": {
+    "tests_run": 89,
+    "failures": 0,
+    "errors": 0,
+    "state": "PASS"
+  },
+  "rcp_descriptor_hardening": "PASS_20_OF_20",
+  "foundation_hardening": "PASS_26_OF_26",
+  "foundation_validator": "PASS_132_CHECKS",
+  "registration_manifest": "PASS",
+  "compileall": "PASS",
+  "diff_check": "PASS",
+  "json_schema_external_engine_meta_validation": "NOT_EXECUTED_EXTERNAL_ENGINE"
+}

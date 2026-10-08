@@ -4,10 +4,26 @@
     {
       "name": "aletheia.research-control-plane-descriptor",
       "version": "0.1.0",
+      "schema_version": "0.1.0",
       "status": "EXPERIMENTAL",
       "qualified": true,
       "qualification_scope": "local exact-SHA qualification recorded in contract evidence and external postcondition",
-      "consumer_compatibility": "NOT_ESTABLISHED",
+      "qualified_consumers": 1,
+      "consumer_compatibility": "ESTABLISHED_LOCAL",
+      "qualified_consumer_records": [
+        {
+          "consumer_id": "kidney-regeneration-research",
+          "consumer_subject_sha": "30ecd32f4639949755a0062670389913129321b4",
+          "consumer_qualification_sha": "67c2f5699ce004d6e42eaf4352f37260b560c618",
+          "descriptor_sha256": "5f2eab8334fef6c7c227ed49904caa0dcf4d91b568e14f5f4e7ef1b29fcf64db",
+          "compatibility_lock_sha256": "3d6acb1a4ef9b03a1692062802e4164cc16a065d59b8c73666796a2faf0d59c0",
+          "qualification_state": "GREEN_KIDNEY_FIRST_RCP_CONSUMER",
+          "qualification_scope": "LOCAL",
+          "remote_publication": "NOT_PERFORMED",
+          "scientific_validation": "NOT_EXECUTED",
+          "clinical_validation": "NOT_EXECUTED"
+        }
+      ],
       "contract_path": "contracts/research-control-plane-descriptor/0.1.0/CONTRACT.md",
       "schema_path": "schemas/research-control-plane-descriptor/0.1.0/schema.json",
       "validator_path": "scripts/validate_rcp_descriptor.py"

@@ -1,0 +1,32 @@
+{
+  "nome_do_projeto": "Aletheia Biomedical Discovery",
+  "versao_do_protocolo": "BH-SDP v2.3",
+  "tipo_de_arquitetura": "federated biomedical discovery platform",
+  "fase_atual": "first qualified local RCP consumer registration v01",
+  "nivel_de_risco": "ALTO",
+  "ambiente": "localhost",
+  "destino_fisico": {
+    "url": "",
+    "branch": "main",
+    "sha_antes": "01b275e5cc8d96f1c03540b24b581a2ae820f264",
+    "sha_depois": "RECORDED_IN_EXTERNAL_POSTCONDITION_AFTER_COMMIT"
+  },
+  "estados": {
+    "codigo": "PASSOU",
+    "backend": "NOT_APPLICABLE",
+    "interface": "PASSOU",
+    "operacao": "PASSOU",
+    "implantacao": "NOT_APPLICABLE",
+    "publicacao": "NAO_REALIZADA",
+    "experiencia_humana": "NOT_EXECUTADO",
+    "scientific_validation": "NOT_EXECUTADO",
+    "clinical_validation": "NOT_EXECUTADO"
+  },
+  "boundaries": {
+    "kidney_repository_mutated": false,
+    "kidney_qualification_branch_merged": false,
+    "contract_schema_semantics_changed": false,
+    "remote_operations_performed": false,
+    "biomedical_data_copied": false
+  }
+}

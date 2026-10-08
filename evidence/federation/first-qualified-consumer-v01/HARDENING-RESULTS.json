@@ -1,0 +1,26 @@
+{
+  "schema": "aletheia.consumer-registry-hardening-results.v1",
+  "state": "PASS",
+  "cases_total": 14,
+  "expected_pass": 1,
+  "expected_reject": 13,
+  "unexpected_pass": 0,
+  "unexpected_fail": 0,
+  "harness_errors": 0,
+  "results": {
+    "A01_VALID_REGISTRATION": "PASS",
+    "A02_SUBJECT_SHA_TAMPER": "REJECT",
+    "A03_QUALIFICATION_SHA_TAMPER": "REJECT",
+    "A04_SUBJECT_QUALIFICATION_ROLE_SWAP": "REJECT",
+    "A05_DESCRIPTOR_HASH_TAMPER": "REJECT",
+    "A06_LOCK_HASH_TAMPER": "REJECT",
+    "A07_QUALIFIED_COUNT_TAMPER": "REJECT",
+    "A08_DUPLICATE_CONSUMER": "REJECT",
+    "A09_MATRIX_ENTRY_REMOVED": "REJECT",
+    "A10_MUTABLE_MAIN_IDENTITY": "REJECT",
+    "A11_SCIENTIFIC_VALIDATION_PROMOTION": "REJECT",
+    "A12_CLINICAL_VALIDATION_PROMOTION": "REJECT",
+    "A13_PUBLISHED_STATE_FORGED": "REJECT",
+    "A14_CONTRACT_VERSION_TAMPER": "REJECT"
+  }
+}

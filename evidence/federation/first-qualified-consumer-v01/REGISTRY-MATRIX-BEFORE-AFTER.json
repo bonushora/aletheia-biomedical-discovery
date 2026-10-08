@@ -1,0 +1,21 @@
+{
+  "schema": "aletheia.registry-matrix-before-after.v1",
+  "before": {
+    "aletheia_head": "01b275e5cc8d96f1c03540b24b581a2ae820f264",
+    "registry_sha256": "38ef4ef400dd2ee5938722751fd4d0efce5886934c6dcc4beef8059d47d8e023",
+    "registry_size": 628,
+    "qualified_consumers": 0,
+    "matrix_sha256": "00033fabd489e046175703f90ccd7136e21a411be6b83d7304d6e4585d6b9c9f",
+    "matrix_size": 354,
+    "consumer_compatibility": "NOT_ESTABLISHED"
+  },
+  "after": {
+    "registry_sha256": "979ac769a8be1afc58a792eca05cfd1ad6ab5c9e85028a5069476b525abac890",
+    "registry_size": 1445,
+    "qualified_consumers": 1,
+    "matrix_sha256": "1f1374c46c7fdd82d0c457479946f9092ed8f831adab02dcf5b8bba2e861df26",
+    "matrix_size": 1348,
+    "consumer_compatibility": "ESTABLISHED_LOCAL",
+    "first_qualified_consumer": "kidney-regeneration-research"
+  }
+}

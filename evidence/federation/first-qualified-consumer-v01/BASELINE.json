@@ -1,0 +1,23 @@
+{
+  "schema": "aletheia.first-qualified-consumer-baseline.v1",
+  "captured_at_utc": "2026-10-08T03:10:36Z",
+  "runner_sha256": "9940eefd1cfcb6922e245556c35d56b3ba9c48dab2409b64723f74aa19947d25",
+  "repository": {
+    "physical_path": "/home/usuario/Desenvolvimento/bonushora/aletheia-biomedical-discovery",
+    "branch": "main",
+    "head": "01b275e5cc8d96f1c03540b24b581a2ae820f264",
+    "worktree": "CLEAN",
+    "remote": "NOT_ESTABLISHED"
+  },
+  "pre_registration_gates": {
+    "schema_self_check": "PASS",
+    "contract_tests": "PASS_60_OF_60",
+    "contract_hardening": "PASS_20_OF_20",
+    "foundation_hardening": "PASS_26_OF_26",
+    "foundation_validation": "PASS_132_CHECKS",
+    "historical_manifests": "PASS_3_OF_3",
+    "compileall": "PASS",
+    "diff_check": "PASS"
+  },
+  "json_schema_external_engine_meta_validation": "NOT_EXECUTED_EXTERNAL_ENGINE"
+}

@@ -6,9 +6,9 @@ This repository is intentionally documentation-first. It does **not** modify bio
 
 ## Local qualification state
 
-Target: `GREEN_ALETHEIA_RCP_DESCRIPTOR_CONTRACT_V0_1_0`
+Target: `GREEN_ALETHEIA_FIRST_QUALIFIED_CONSUMER_REGISTERED`
 
-This state means the ADR set is structurally complete, internally cross-referenced, locally validated, hashed, committed in its own repository, and governed by the accepted federated topology. It does **not** mean scientific validation, clinical validation, remote publication, release, or compatibility with untested future control planes.
+This state means the ADR and contract foundation remains qualified and Kidney is registered as the first exact-SHA, local qualified consumer of the RCP Descriptor v0.1.0 contract. It does **not** mean the Kidney qualification branch was merged, scientific or clinical validation occurred, therapeutic efficacy was established, or any repository was remotely published.
 
 ## Structure
 
@@ -23,6 +23,7 @@ This state means the ADR set is structurally complete, internally cross-referenc
 - `scripts/validate_accepted_adr_history.py` — accepted-decision continuity against an explicit Git base.
 - `scripts/verify_evidence_zip.py` — generic ZIP container-safety verification.
 - `scripts/validate_rcp_descriptor.py` — stdlib-only RCP Descriptor validation.
+- `scripts/validate_consumer_registry.py` — stdlib-only exact-SHA registry/matrix validation.
 - `tests/contracts/` — unit and adversarial contract qualification.
 - `tests/foundation-hardening/` — independent synthetic adversarial qualification corpus.
 - `docs/security/` — scope and attack-model documentation.

@@ -1,0 +1,22 @@
+{
+  "schema": "aletheia.first-qualified-consumer-kidney-preservation.v1",
+  "policy": "READ_ONLY",
+  "original_before_and_after": {
+    "head": "30ecd32f4639949755a0062670389913129321b4",
+    "branch": "main",
+    "status": " M tests/test_replication_bridge.py",
+    "working_diff_sha256": "90c0727421362e4a9da39c92a95dce7f1f42814173c4f90301837c89df10a85c",
+    "cached_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked_files": 74,
+    "state": "PASS_IDENTICAL"
+  },
+  "qualification_before_and_after": {
+    "head": "67c2f5699ce004d6e42eaf4352f37260b560c618",
+    "branch": "feature/aletheia-rcp-descriptor-v0.1.0",
+    "status": "CLEAN",
+    "tracked_files": 93,
+    "state": "PASS_IDENTICAL"
+  },
+  "merge_performed": false,
+  "remote_operation_performed": false
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "aletheia.first-qualified-consumer-kidney-identity.v1",
+  "captured_at_utc": "2026-10-08T03:10:36Z",
+  "policy": "READ_ONLY",
+  "original": {
+    "physical_path": "/home/usuario/Desenvolvimento/bonushora/kidney-regeneration-research",
+    "branch": "main",
+    "head": "30ecd32f4639949755a0062670389913129321b4",
+    "status": " M tests/test_replication_bridge.py",
+    "working_diff_sha256": "90c0727421362e4a9da39c92a95dce7f1f42814173c4f90301837c89df10a85c",
+    "cached_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "qualification": {
+    "physical_path": "/home/usuario/Desenvolvimento/bonushora/kidney-regeneration-research-rcp-v0.1.0",
+    "branch": "feature/aletheia-rcp-descriptor-v0.1.0",
+    "head": "67c2f5699ce004d6e42eaf4352f37260b560c618",
+    "parent": "30ecd32f4639949755a0062670389913129321b4",
+    "commits_above_subject": 1,
+    "worktree": "CLEAN",
+    "descriptor_sha256": "5f2eab8334fef6c7c227ed49904caa0dcf4d91b568e14f5f4e7ef1b29fcf64db",
+    "compatibility_lock_sha256": "3d6acb1a4ef9b03a1692062802e4164cc16a065d59b8c73666796a2faf0d59c0"
+  },
+  "qualification_gates": {
+    "descriptor_validation": "PASS",
+    "federation_tests": "PASS_20_OF_20",
+    "consumer_hardening": "PASS_16_OF_16",
+    "manifest": "PASS"
+  }
+}

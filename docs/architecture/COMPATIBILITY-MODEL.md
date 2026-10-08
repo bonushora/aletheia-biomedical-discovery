@@ -1,6 +1,6 @@
 # Compatibility model
 
-The first executable federation boundary is the experimental RCP Descriptor contract and schema v0.1.0. No consumer compatibility is established.
+The first executable federation boundary is the experimental RCP Descriptor contract and schema v0.1.0. Exact-SHA local compatibility is established for one consumer, `kidney-regeneration-research`; no remote publication, scientific validation, or clinical validation was performed.
 
 ```yaml
 contract: aletheia.research-control-plane-descriptor
@@ -15,8 +15,11 @@ breaking_change:
   requires_migration_mission: true
 compatibility_matrix:
   required: true
-  qualified_consumers: 0
-  consumer_compatibility: NOT_ESTABLISHED
+  qualified_consumers: 1
+  first_qualified_consumer: kidney-regeneration-research
+  qualification_scope: LOCAL
+  consumer_compatibility: ESTABLISHED_LOCAL
+  publication: NOT_PERFORMED
 ```
 
 A compatibility matrix must bind a Control Plane revision to exact contract and schema identities. A breaking Core change cannot silently migrate or mutate a federated Control Plane; migration requires its own authorized mission and validation to GREEN.
