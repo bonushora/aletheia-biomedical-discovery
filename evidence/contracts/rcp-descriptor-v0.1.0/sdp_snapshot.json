@@ -2,24 +2,48 @@
   "nome_do_projeto": "Aletheia Biomedical Discovery",
   "versao_do_protocolo": "BH-SDP v2.3",
   "tipo_de_arquitetura": "federated biomedical discovery platform",
+  "meta_de_custo": "Nenhum custo externo registrado nesta missão; execução local.",
   "fase_atual": "first executable RCP descriptor v0.1.0",
   "nivel_de_risco": "ALTO",
+  "contagem_de_gates": 6,
+  "tentativas_equivalentes": 0,
+  "acoes_manuais": [
+    "Aceite humano explícito da ADR-0017 no commit dc0249754f28851317222da1d603f58fb32651f7."
+  ],
   "ambiente": "localhost",
   "destino_fisico": {
     "url": "",
     "branch": "main",
     "sha_antes": "c08d5740149ea00f9e8f0915ef4aacc74c95ce97",
-    "sha_depois": "RECORDED_IN_EXTERNAL_POSTCONDITION_AFTER_COMMIT"
+    "sha_depois": "01b275e5cc8d96f1c03540b24b581a2ae820f264"
   },
-  "estados": {
+  "estado_green": {
     "codigo": "PASSOU",
     "backend": "NOT_APPLICABLE",
     "interface": "PASSOU",
     "operacao": "PASSOU",
     "implantacao": "NOT_APPLICABLE",
-    "publicacao": "NOT_APPLICABLE",
-    "experiencia_humana": "NOT_EXECUTADO",
-    "scientific_validation": "NOT_EXECUTADO",
-    "clinical_validation": "NOT_EXECUTADO"
-  }
+    "publicacao": "NÃO_EXECUTADO",
+    "experiencia_humana": "NÃO_EXECUTADO"
+  },
+  "itens_deferred": [
+    "Meta-validação por engine JSON Schema externo não executada.",
+    "Validação científica não executada.",
+    "Validação clínica não executada.",
+    "Publicação remota não realizada."
+  ],
+  "ancoras_fisicas": {
+    "hash_do_commit": "01b275e5cc8d96f1c03540b24b581a2ae820f264",
+    "status_dos_testes": "PASSOU",
+    "ultimas_linhas_inspecionadas": "REPORT.md, UNIT-TESTS.json e FOUNDATION-REGRESSION.json da missão."
+  },
+  "componentes_validados": [
+    "self-check estrutural do schema",
+    "60 testes unitários do contrato",
+    "hardening do descriptor em 20 casos",
+    "regressão do hardening da fundação em 26 casos",
+    "validador estrutural da fundação",
+    "manifests de evidência aplicáveis"
+  ],
+  "proximo_passo": "Qualificar um consumidor RCP em missão separada e explicitamente autorizada."
 }

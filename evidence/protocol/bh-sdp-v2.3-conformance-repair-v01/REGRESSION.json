@@ -1,0 +1,24 @@
+{
+  "schema": "aletheia.bh-sdp-v2.3-repair-regression.v1",
+  "consumer_registry_validator": "PASS",
+  "consumer_registry_tests": "PASS_29_OF_29",
+  "consumer_registry_hardening": "PASS_14_OF_14_EXACT_OUTCOMES",
+  "contract_tests": "PASS_89_OF_89",
+  "descriptor_hardening": "PASS_20_OF_20",
+  "foundation_hardening": "PASS_26_OF_26",
+  "foundation_validator": "PASS_132_CHECKS",
+  "affected_manifests": {
+    "state": "PASS",
+    "paths": [
+      "evidence/foundation-v01/MANIFEST.json",
+      "evidence/hardening/foundation-v01/MANIFEST.json",
+      "evidence/contracts/rcp-descriptor-v0.1.0/MANIFEST.json",
+      "evidence/federation/first-qualified-consumer-v01/MANIFEST.json",
+      "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/MANIFEST.json"
+    ]
+  },
+  "compileall": "PASS",
+  "git_diff_check": "PASS",
+  "protected_semantics": "BYTE_IDENTICAL",
+  "state": "PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "aletheia.bh-sdp-v2.3-discovered-snapshots.v1",
+  "discovery_command": "git ls-files -z | xargs -0 rg -l '\"versao_do_protocolo\"[[:space:]]*:[[:space:]]*\"BH-SDP v2\\.3\"'",
+  "baseline_count": 3,
+  "baseline_paths": [
+    "evidence/contracts/rcp-descriptor-v0.1.0/sdp_snapshot.json",
+    "evidence/federation/first-qualified-consumer-v01/sdp_snapshot.json",
+    "evidence/hardening/foundation-v01/sdp_snapshot.json"
+  ],
+  "final_count": 4,
+  "final_paths": [
+    "evidence/contracts/rcp-descriptor-v0.1.0/sdp_snapshot.json",
+    "evidence/federation/first-qualified-consumer-v01/sdp_snapshot.json",
+    "evidence/hardening/foundation-v01/sdp_snapshot.json",
+    "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/sdp_snapshot.json"
+  ],
+  "kidney_search_scope": "EXCLUDED_READ_ONLY"
+}

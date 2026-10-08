@@ -1,0 +1,56 @@
+{
+  "nome_do_projeto": "Aletheia Biomedical Discovery",
+  "versao_do_protocolo": "BH-SDP v2.3",
+  "tipo_de_arquitetura": "federated biomedical discovery platform",
+  "meta_de_custo": "Nenhum custo externo registrado nesta missão; execução local.",
+  "fase_atual": "BH-SDP v2.3 exact conformance repair v01",
+  "nivel_de_risco": "ALTO",
+  "contagem_de_gates": 14,
+  "tentativas_equivalentes": 0,
+  "acoes_manuais": [
+    "Autorização humana explícita para o remendo cirúrgico BH-SDP v2.3 até o GREEN definitivo."
+  ],
+  "ambiente": "localhost",
+  "destino_fisico": {
+    "url": "",
+    "branch": "main",
+    "sha_antes": "1383df3c5cf738a2ef4da1c650ef14a2f788b0c9",
+    "sha_depois": "RECORDED_IN_EXTERNAL_POSTCONDITION_AFTER_COMMIT"
+  },
+  "estado_green": {
+    "codigo": "PASSOU",
+    "backend": "NOT_APPLICABLE",
+    "interface": "PASSOU",
+    "operacao": "PASSOU",
+    "implantacao": "NOT_APPLICABLE",
+    "publicacao": "NÃO_EXECUTADO",
+    "experiencia_humana": "NÃO_EXECUTADO"
+  },
+  "itens_deferred": [
+    "Validação científica não executada.",
+    "Validação clínica não executada.",
+    "Publicação remota não realizada."
+  ],
+  "ancoras_fisicas": {
+    "hash_do_commit": "RECORDED_IN_EXTERNAL_POSTCONDITION_AFTER_COMMIT",
+    "status_dos_testes": "PASSOU",
+    "ultimas_linhas_inspecionadas": "REPORT.md, VALIDATION.json, REGRESSION.json e KIDNEY-PRESERVATION.json do reparo."
+  },
+  "componentes_validados": [
+    "conformidade exata de quatro snapshots BH-SDP v2.3",
+    "31 testes do protocolo BH-SDP v2.3",
+    "validador do registry de consumidores",
+    "29 testes do registry",
+    "hardening do registry em 14 casos",
+    "suíte de contratos em 89 testes",
+    "hardening do descriptor em 20 casos",
+    "hardening da fundação em 26 casos",
+    "validador da fundação em 132 checks",
+    "manifests afetados",
+    "compileall de scripts e testes",
+    "git diff --check",
+    "identidades normativas protegidas",
+    "preservação dos worktrees Kidney"
+  ],
+  "proximo_passo": "Aguardar nova autorização humana antes de publicação ou trabalho científico."
+}

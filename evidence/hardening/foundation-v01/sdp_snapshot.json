@@ -2,24 +2,43 @@
   "nome_do_projeto": "Aletheia Biomedical Discovery",
   "versao_do_protocolo": "BH-SDP v2.3",
   "tipo_de_arquitetura": "federated biomedical discovery platform",
+  "meta_de_custo": "Nenhum custo externo registrado nesta missão; execução local.",
   "fase_atual": "foundation adversarial hardening v01",
   "nivel_de_risco": "ALTO",
+  "contagem_de_gates": 4,
+  "tentativas_equivalentes": 0,
+  "acoes_manuais": [],
   "ambiente": "localhost",
   "destino_fisico": {
     "url": "",
     "branch": "main",
     "sha_antes": "efe611728229ab4abeb92bc33d857ec8760ce8a1",
-    "sha_depois": "RECORDED_IN_EXTERNAL_POSTCONDITION_AFTER_COMMIT"
+    "sha_depois": "c08d5740149ea00f9e8f0915ef4aacc74c95ce97"
   },
-  "estados": {
+  "estado_green": {
     "codigo": "PASSOU",
     "backend": "NOT_APPLICABLE",
     "interface": "NOT_APPLICABLE",
     "operacao": "PASSOU",
     "implantacao": "NOT_APPLICABLE",
-    "publicacao": "NOT_APPLICABLE",
-    "experiencia_humana": "NOT_EXECUTADO",
-    "scientific_validation": "NOT_EXECUTADO",
-    "clinical_validation": "NOT_EXECUTADO"
-  }
+    "publicacao": "NÃO_EXECUTADO",
+    "experiencia_humana": "NÃO_EXECUTADO"
+  },
+  "itens_deferred": [
+    "Validação científica não executada.",
+    "Validação clínica não executada.",
+    "Publicação remota não realizada."
+  ],
+  "ancoras_fisicas": {
+    "hash_do_commit": "c08d5740149ea00f9e8f0915ef4aacc74c95ce97",
+    "status_dos_testes": "PASSOU",
+    "ultimas_linhas_inspecionadas": "REPORT.md, GREEN-RESULTS.json e VALIDATION.json da missão."
+  },
+  "componentes_validados": [
+    "hardening adversarial da fundação em 26 casos",
+    "validador estrutural da fundação",
+    "continuidade da ADR-0016 aceita",
+    "manifests de evidência da fundação"
+  ],
+  "proximo_passo": "Aguardar autorização humana antes de aceitar ADR-0017 ou implementar contrato e schema."
 }

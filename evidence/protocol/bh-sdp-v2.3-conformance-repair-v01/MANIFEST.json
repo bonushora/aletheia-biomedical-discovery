@@ -1,0 +1,21 @@
+{
+  "schema": "aletheia.bh-sdp-v2.3-conformance-repair-manifest.v1",
+  "algorithm": "sha256",
+  "self_excluded": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/MANIFEST.json",
+  "files": [
+    {"path": "evidence/contracts/rcp-descriptor-v0.1.0/sdp_snapshot.json", "sha256": "fb1c09542b9ab516c3d813cf561a813a9030084f5a9b5c3964db913191c60525", "size": 1844},
+    {"path": "evidence/federation/first-qualified-consumer-v01/MANIFEST.json", "sha256": "b12de696a9a3ef42cd6fe2de1d9cb9827153cf4109d6ffb81dd41902cb644dec", "size": 3846},
+    {"path": "evidence/federation/first-qualified-consumer-v01/sdp_snapshot.json", "sha256": "5240b1c79c1a142cde37471bb003e2f277fb0fe1ddd37c4d258511f4094ec0b2", "size": 2166},
+    {"path": "evidence/hardening/foundation-v01/sdp_snapshot.json", "sha256": "4f36231ca70095a36426d86a5418c59d27a3b4b87548108a97bc09d462ef5450", "size": 1602},
+    {"path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/BASELINE.json", "sha256": "20e5771c8d26e80f3f25a8f9d3c3eac56cd4e28b95c69a5d937e9ef923285d78", "size": 1082},
+    {"path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/BEFORE-AFTER.json", "sha256": "94da9414e82e1c83af46d3a46ef9a309901dbc6ab59ade25f4c81c0c9913f698", "size": 1326},
+    {"path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/DISCOVERED-SNAPSHOTS.json", "sha256": "a879dab94e83c8577c054038da9789fb7f433ce4feb67804cc9b564dc712fbf2", "size": 805},
+    {"path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/KIDNEY-PRESERVATION.json", "sha256": "0a6e83b5b61af267b560c8886dad548acf65d9a42260ec45ce8ccf8e32209a3f", "size": 710},
+    {"path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/REGRESSION.json", "sha256": "47fc922c23d7627d2da3fa924fcc995d612d4ead232b6b87f0deb71651e61080", "size": 882},
+    {"path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/REPORT.md", "sha256": "0b4c5828c1b8f05dcd5b35d22c13b94fadf4e2284b180588e6f5820c95f1d47e", "size": 1480},
+    {"path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/VALIDATION.json", "sha256": "9747b990de6c765baf7f3ba1c38023f5d8a4df5c1d10763e2fed20669d47c39b", "size": 414},
+    {"path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/sdp_snapshot.json", "sha256": "5204e71f0da4e3c9ff8d386975adbcd44f3a88b051d632f5a02e79c62753034b", "size": 2107},
+    {"path": "scripts/validate_bh_sdp_v23.py", "sha256": "57240ecea2ee044a6e8f11bc4385842f243d365f72c132a2de65def3fd48b5ae", "size": 9909},
+    {"path": "tests/protocols/test_bh_sdp_v23.py", "sha256": "0d6da899ccf8911f1be90b6cfcc9878cf25adccb0f6a5f4f61b51ccef0236e8b", "size": 6848}
+  ]
+}

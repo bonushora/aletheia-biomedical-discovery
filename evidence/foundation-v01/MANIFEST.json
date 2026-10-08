@@ -36,8 +36,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "2d6b305232ef6a9a98643311e4b78117db6de29567bbb8e2bdac543ba70d831c",
-      "size": 2297
+      "sha256": "f5336745be51547827f4599b793d2143b0fea60887a1e291344eede934df77f4",
+      "size": 2426
     },
     {
       "path": "SOURCES.md",
@@ -46,18 +46,18 @@
     },
     {
       "path": "contracts/COMPATIBILITY-MATRIX.json",
-      "sha256": "00033fabd489e046175703f90ccd7136e21a411be6b83d7304d6e4585d6b9c9f",
-      "size": 354
+      "sha256": "1f1374c46c7fdd82d0c457479946f9092ed8f831adab02dcf5b8bba2e861df26",
+      "size": 1348
     },
     {
       "path": "contracts/README.md",
-      "sha256": "a1601e566c6b87af433bb16479954cb8c021d8295b093c753eccf44e956543f0",
-      "size": 843
+      "sha256": "69c59967bfe2a7894743d0a10e5948a8cb05f2f0555e15f6457d9abe0ab3179e",
+      "size": 1026
     },
     {
       "path": "contracts/REGISTRY.json",
-      "sha256": "38ef4ef400dd2ee5938722751fd4d0efce5886934c6dcc4beef8059d47d8e023",
-      "size": 628
+      "sha256": "979ac769a8be1afc58a792eca05cfd1ad6ab5c9e85028a5069476b525abac890",
+      "size": 1445
     },
     {
       "path": "contracts/VERSIONING.md",
@@ -71,8 +71,8 @@
     },
     {
       "path": "control-planes/README.md",
-      "sha256": "1f6d71ddc15b67aad7557c3346a407c84f6cd42b62877ce41a407e60b516abb9",
-      "size": 635
+      "sha256": "769db57b5ccd307c1c72c43aaaf02d43adda315abed5058aa5b15273d3ee3928",
+      "size": 781
     },
     {
       "path": "docs/adr/0000-adr-governance-and-lifecycle.md",
@@ -171,8 +171,8 @@
     },
     {
       "path": "docs/architecture/COMPATIBILITY-MODEL.md",
-      "sha256": "048ad6af8f0f271c2903018d4896c054cb402f37222b84316a21a22d2a510103",
-      "size": 833
+      "sha256": "355b767b666388e2db50deff7c27c861f7ed89c46c1e1a8087cf20a2c845e3e3",
+      "size": 1087
     },
     {
       "path": "docs/architecture/FEDERATION-MODEL.md",
@@ -246,8 +246,58 @@
     },
     {
       "path": "evidence/contracts/rcp-descriptor-v0.1.0/sdp_snapshot.json",
-      "sha256": "952d5a424ab0e2480d928b74c328ff05e7c6ea937c64e1e7fd7c0e98e1b32f4f",
-      "size": 806
+      "sha256": "fb1c09542b9ab516c3d813cf561a813a9030084f5a9b5c3964db913191c60525",
+      "size": 1844
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/BASELINE.json",
+      "sha256": "57345223c71efd0a61add56993fc805455a4bdf34f3a6454accf06c0dd89aedf",
+      "size": 866
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/HARDENING-RESULTS.json",
+      "sha256": "267997686863213c357b890b80d81f74621a81611e95f84c68a31986c72c16bd",
+      "size": 864
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/KIDNEY-IDENTITY.json",
+      "sha256": "b90df362dc18043e273f5b9a9c1d439bdf1564f153287a2693989a1cf6db0a2c",
+      "size": 1300
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/KIDNEY-PRESERVATION.json",
+      "sha256": "d37fc7dfe7d258300dca00a2ebf6d88e3fab151a63be4b43b245be5f20b64883",
+      "size": 813
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/MANIFEST.json",
+      "sha256": "b12de696a9a3ef42cd6fe2de1d9cb9827153cf4109d6ffb81dd41902cb644dec",
+      "size": 3846
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/REGISTRATION.json",
+      "sha256": "24a4ce7f6e4c2f57618076f4aeb1fedd6a460ceb713f4a33e431d99e1690bd38",
+      "size": 1128
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/REGISTRY-MATRIX-BEFORE-AFTER.json",
+      "sha256": "f6c1bfeb9167c32766ab164c0e4941e383bc560f7d351712b1c210d0fe1b915a",
+      "size": 845
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/REPORT.md",
+      "sha256": "c62140cac52eea7591ad1169cec06ec631230c41c36cff5e2ca9529c3ce49dda",
+      "size": 1382
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/VALIDATION.json",
+      "sha256": "1edd80b105afee0c8bde24278f16cf02a07711112dc495e0092198c0f8f7edd7",
+      "size": 677
+    },
+    {
+      "path": "evidence/federation/first-qualified-consumer-v01/sdp_snapshot.json",
+      "sha256": "5240b1c79c1a142cde37471bb003e2f277fb0fe1ddd37c4d258511f4094ec0b2",
+      "size": 2166
     },
     {
       "path": "evidence/foundation-v01/BASELINE.json",
@@ -316,8 +366,53 @@
     },
     {
       "path": "evidence/hardening/foundation-v01/sdp_snapshot.json",
-      "sha256": "598730610b807fc8d167da0fe20dfc42c771b57773ab3f1050f6aecf0a99f78c",
-      "size": 812
+      "sha256": "4f36231ca70095a36426d86a5418c59d27a3b4b87548108a97bc09d462ef5450",
+      "size": 1602
+    },
+    {
+      "path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/BASELINE.json",
+      "sha256": "20e5771c8d26e80f3f25a8f9d3c3eac56cd4e28b95c69a5d937e9ef923285d78",
+      "size": 1082
+    },
+    {
+      "path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/BEFORE-AFTER.json",
+      "sha256": "94da9414e82e1c83af46d3a46ef9a309901dbc6ab59ade25f4c81c0c9913f698",
+      "size": 1326
+    },
+    {
+      "path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/DISCOVERED-SNAPSHOTS.json",
+      "sha256": "a879dab94e83c8577c054038da9789fb7f433ce4feb67804cc9b564dc712fbf2",
+      "size": 805
+    },
+    {
+      "path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/KIDNEY-PRESERVATION.json",
+      "sha256": "0a6e83b5b61af267b560c8886dad548acf65d9a42260ec45ce8ccf8e32209a3f",
+      "size": 710
+    },
+    {
+      "path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/MANIFEST.json",
+      "sha256": "b62ef93e44e12cabbd8980f2130ccf5d509a8d1a8cfc44d7a1c974ecb0ceb801",
+      "size": 2597
+    },
+    {
+      "path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/REGRESSION.json",
+      "sha256": "47fc922c23d7627d2da3fa924fcc995d612d4ead232b6b87f0deb71651e61080",
+      "size": 882
+    },
+    {
+      "path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/REPORT.md",
+      "sha256": "0b4c5828c1b8f05dcd5b35d22c13b94fadf4e2284b180588e6f5820c95f1d47e",
+      "size": 1480
+    },
+    {
+      "path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/VALIDATION.json",
+      "sha256": "9747b990de6c765baf7f3ba1c38023f5d8a4df5c1d10763e2fed20669d47c39b",
+      "size": 414
+    },
+    {
+      "path": "evidence/protocol/bh-sdp-v2.3-conformance-repair-v01/sdp_snapshot.json",
+      "sha256": "5204e71f0da4e3c9ff8d386975adbcd44f3a88b051d632f5a02e79c62753034b",
+      "size": 2107
     },
     {
       "path": "modules/kidney/docs/adr/0001-kidney-control-plane-scope.md",
@@ -385,6 +480,16 @@
       "size": 4914
     },
     {
+      "path": "scripts/validate_bh_sdp_v23.py",
+      "sha256": "57240ecea2ee044a6e8f11bc4385842f243d365f72c132a2de65def3fd48b5ae",
+      "size": 9909
+    },
+    {
+      "path": "scripts/validate_consumer_registry.py",
+      "sha256": "e5bac70d622fb4b3bfe99ff813a8cd6d42595eb7625448152b1fb24d450143e4",
+      "size": 12979
+    },
+    {
       "path": "scripts/validate_foundation.py",
       "sha256": "f69f153a56748a3a2a536cd535f4bb15f27b58afe08cdd988a0cc469234f3420",
       "size": 15610
@@ -400,9 +505,19 @@
       "size": 3854
     },
     {
+      "path": "tests/contracts/run_consumer_registry_hardening.py",
+      "sha256": "3047fa91d6c1122530bc162c04dee943a78b4e99e0b574fa1688eedd8adf42c9",
+      "size": 6730
+    },
+    {
       "path": "tests/contracts/run_rcp_descriptor_hardening.py",
       "sha256": "fcb60459ee7d0b4b0b313a2cc2f2c5baea5cd7b02d2aaac2b4d29f14d60412a7",
       "size": 7109
+    },
+    {
+      "path": "tests/contracts/test_consumer_registry.py",
+      "sha256": "c6430850aa4dbc7a365a68ce11b0192cdf232aa3804f8f96dfcf5c61cda2da23",
+      "size": 7152
     },
     {
       "path": "tests/contracts/test_rcp_descriptor.py",
@@ -413,6 +528,11 @@
       "path": "tests/foundation-hardening/run_foundation_hardening.py",
       "sha256": "ad97b5e059e606b6cd531dfbaca9dd86e93a1548a749ab62587cd3d14166bc73",
       "size": 11920
+    },
+    {
+      "path": "tests/protocols/test_bh_sdp_v23.py",
+      "sha256": "0d6da899ccf8911f1be90b6cfcc9878cf25adccb0f6a5f4f61b51ccef0236e8b",
+      "size": 6848
     }
   ],
   "schema": "aletheia.foundation-manifest.v1"

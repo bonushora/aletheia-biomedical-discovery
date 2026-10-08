@@ -1,0 +1,17 @@
+{
+  "schema": "aletheia.bh-sdp-v2.3-repair-validation.v1",
+  "captured_at_utc": "2026-10-08T03:41:15Z",
+  "snapshots_discovered": 4,
+  "snapshots_pass": 4,
+  "exact_keyset_conformance": "PASS",
+  "enum_conformance": "PASS",
+  "duplicate_key_rejection": "PASS",
+  "repair_manifest": "PASS",
+  "protocol_tests": {
+    "tests_run": 31,
+    "failures": 0,
+    "errors": 0,
+    "state": "PASS"
+  },
+  "state": "PASS"
+}

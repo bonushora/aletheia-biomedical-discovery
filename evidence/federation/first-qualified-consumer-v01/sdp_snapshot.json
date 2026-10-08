@@ -2,31 +2,55 @@
   "nome_do_projeto": "Aletheia Biomedical Discovery",
   "versao_do_protocolo": "BH-SDP v2.3",
   "tipo_de_arquitetura": "federated biomedical discovery platform",
+  "meta_de_custo": "Nenhum custo externo registrado nesta missão; execução local.",
   "fase_atual": "first qualified local RCP consumer registration v01",
   "nivel_de_risco": "ALTO",
+  "contagem_de_gates": 12,
+  "tentativas_equivalentes": 0,
+  "acoes_manuais": [
+    "Autorização humana explícita para registrar Kidney como primeiro consumidor qualificado."
+  ],
   "ambiente": "localhost",
   "destino_fisico": {
     "url": "",
     "branch": "main",
     "sha_antes": "01b275e5cc8d96f1c03540b24b581a2ae820f264",
-    "sha_depois": "RECORDED_IN_EXTERNAL_POSTCONDITION_AFTER_COMMIT"
+    "sha_depois": "1383df3c5cf738a2ef4da1c650ef14a2f788b0c9"
   },
-  "estados": {
+  "estado_green": {
     "codigo": "PASSOU",
     "backend": "NOT_APPLICABLE",
     "interface": "PASSOU",
     "operacao": "PASSOU",
     "implantacao": "NOT_APPLICABLE",
-    "publicacao": "NAO_REALIZADA",
-    "experiencia_humana": "NOT_EXECUTADO",
-    "scientific_validation": "NOT_EXECUTADO",
-    "clinical_validation": "NOT_EXECUTADO"
+    "publicacao": "NÃO_EXECUTADO",
+    "experiencia_humana": "NÃO_EXECUTADO"
   },
-  "boundaries": {
-    "kidney_repository_mutated": false,
-    "kidney_qualification_branch_merged": false,
-    "contract_schema_semantics_changed": false,
-    "remote_operations_performed": false,
-    "biomedical_data_copied": false
-  }
+  "itens_deferred": [
+    "Meta-validação por engine JSON Schema externo não executada.",
+    "Validação científica não executada.",
+    "Validação clínica não executada.",
+    "Merge da branch de qualificação Kidney não realizado.",
+    "Publicação remota não realizada."
+  ],
+  "ancoras_fisicas": {
+    "hash_do_commit": "1383df3c5cf738a2ef4da1c650ef14a2f788b0c9",
+    "status_dos_testes": "PASSOU",
+    "ultimas_linhas_inspecionadas": "REPORT.md, VALIDATION.json, REGISTRATION.json e KIDNEY-PRESERVATION.json da missão."
+  },
+  "componentes_validados": [
+    "validador do registry de consumidores",
+    "29 testes do registry",
+    "hardening do registry em 14 casos",
+    "suíte de contratos em 89 testes",
+    "hardening do descriptor em 20 casos",
+    "hardening da fundação em 26 casos",
+    "validador da fundação em 132 checks",
+    "manifesto do registro",
+    "compileall de scripts e testes",
+    "git diff --check",
+    "preservação dos worktrees Kidney",
+    "identidade byte a byte de contrato e schema"
+  ],
+  "proximo_passo": "Aguardar nova autorização humana antes de publicação, merge Kidney ou trabalho científico."
 }

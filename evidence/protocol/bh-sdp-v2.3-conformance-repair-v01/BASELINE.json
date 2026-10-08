@@ -1,0 +1,21 @@
+{
+  "schema": "aletheia.bh-sdp-v2.3-repair-baseline.v1",
+  "captured_at_utc": "2026-10-08T03:39:36Z",
+  "runner_sha256": "a224eeba2084fb803a9198860f099db783abd83e3489d374c4fc0e14c1a171fb",
+  "repository": {
+    "branch": "main",
+    "head": "1383df3c5cf738a2ef4da1c650ef14a2f788b0c9",
+    "worktree": "CLEAN",
+    "remote": "NOT_ESTABLISHED"
+  },
+  "protected_sha256": {
+    "contract": "9023533c9390e7da06ecc9984f2a04983e7aa64a9ef62388d479aa4992019157",
+    "schema": "b2fb81b391f7b099886104bc2ea6090d19c9364fc68d78c28f666907bc530f0a",
+    "rcp_validator": "8f3d4913fda5dc38a0cdc80a38ea852e2f116a88b9086784aacadec7fc58a658",
+    "registry": "979ac769a8be1afc58a792eca05cfd1ad6ab5c9e85028a5069476b525abac890",
+    "compatibility_matrix": "1f1374c46c7fdd82d0c457479946f9092ed8f831adab02dcf5b8bba2e861df26",
+    "consumer_registry_validator": "e5bac70d622fb4b3bfe99ff813a8cd6d42595eb7625448152b1fb24d450143e4",
+    "adr_0016": "1aab1f4fc8166d4d83b051566dbbceca704ad372000d3297cf854b17932de228",
+    "adr_0017": "47481bb70772b3de245d542c1c0832775eafae0eb0e98087fdc74e5b21a0760e"
+  }
+}
